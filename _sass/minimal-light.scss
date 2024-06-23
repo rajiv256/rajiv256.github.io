@@ -1,3 +1,5 @@
+
+
 .pub-row {
   display: flex; 
   align-items: center;}
@@ -365,14 +367,13 @@ header {
 }
 
 
-
 header ul {
   list-style:none;
   height:40px;
   padding:0;
-  background: #f4f4f4;
-  border-radius:5px;
-  border:1px solid #e0e0e0;
+  // background: #f4f4f4;
+  // border-radius:5px;
+  // border:1px solid #e0e0e0;
   width:270px;
 }
 
@@ -426,9 +427,10 @@ header ul li + li + li {
 }
 
 header ul a strong {
-  font-size:14px;
+  font-size:20px;
   display:block;
-  color:#222;
+  color:#286585;
+  float: center;
 }
 
 section {
@@ -458,6 +460,12 @@ footer {
   text-align:center;
 }
 
+div.post {
+  width: 600px;
+  margin: auto;
+  float: center;
+}
+
 @media print, screen and (max-width: 960px) {
 
   .pub-row {
@@ -468,7 +476,6 @@ footer {
     width:auto;
     margin:0;
   }
-
 
   header, section, footer {
     float:none;
@@ -533,6 +540,7 @@ footer {
 
   pre, code {
     word-wrap:normal;
+    width: 99%; // added by rajiv.
   }
 }
 
@@ -595,3 +603,4 @@ footer {
   display:none;
   font-family: monospace;
 }
+
