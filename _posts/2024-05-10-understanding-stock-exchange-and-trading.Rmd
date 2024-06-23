@@ -28,4 +28,4 @@ defaults:
 tags: stock-market, trading
 ---
 
-I always wanted to understand what exactly day trading is, what an index is, and what many other terms mean. I will get to this when I have time.
+I always wanted to understand what exactly day trading is, what an index is, and what many other terms mean. I will get to this when I have time. 

@@ -3,10 +3,14 @@ title: "A detective story"
 permalink: "/blog/a-story-in-the-making"
 categories: "Literature"
 output:
-  html_document:
-    theme:
-  pdf_document:
-    theme: cerulean
+  md_document:
+    variant: gfm
+    preserve_yaml: TRUE
+    pandoc_args: 
+      - "--wrap=preserve"
+knit: (function(inputFile, encoding) {
+  rmarkdown::render(inputFile, encoding = encoding, output_dir = "../_posts") })
+
 layout: single
 bibliography: refs.bib
 link-citations: true

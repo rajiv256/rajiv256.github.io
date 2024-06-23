@@ -36,7 +36,7 @@ This is an attempt at programming a website, that helps interested readers to se
 
 First, what is the source repository of the papers to extract? ArXiv is probably the easiest because it is freely available. But the papers there are also restricted i.e., mostly concentrated in physics and computer science? But then there is bioRXiv. One thing to do is use Google scholar for the metadata and see if the paper is available in any of these repository sites.
 
-So what package in python to use for this purpose? [Scholarly](https://pypi.org/project/scholarly/_) seem to be the most obvious opensource choice. Let’s try it out.
+So what package in python to use for this purpose? [Scholarly](https://pypi.org/project/scholarly/_) seem to be the most obvious opensource choice. Let's try it out.
 
 ##### *4.52 pm EST*
 
@@ -50,12 +50,12 @@ One idea is to use ChatGPT to generate a science-y search key and then query sch
 
 Ok maybe I will use a Hugging face model lol, instead of chatgpt.
 
-Ok for now, I am not sure how to get the queries in place. But, let’s first try to get the rest of the infra in place.
+Ok for now, I am not sure how to get the queries in place. But, let's first try to get the rest of the infra in place.
 
 Haha, I found a trick. I simply query the journal name. Then, I go down n (generated randomly) number of publications down. Then, find an article. Then go to some related articles. Then repeat a couple times. And then finally get to an article.
 
 ##### *6.52 pm EST*
 
-Ok for now, let’s go down until there is a PDF.
+Ok for now, let's go down until there is a PDF.
 
 I think I exceeded max tries for today. So I will stop for now! Maybe resurrect this next week! This was fun!

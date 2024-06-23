@@ -55,6 +55,8 @@ exclude:
   - LICENSE
   - minimal-light.gemspec
   - html_source_file/
+  - _posts/*.Rmd
+  - _posts/*.html
 
 markdown: kramdown
 gems: ['jekyll/scholar']

@@ -8,11 +8,11 @@ defaults:
       path: ""
       type: posts
 ---
-
+{% include base_path %}
 <div class="wrapper">
   {% for post in site.posts %}
     <h4>
-      <a href="{{ site.baseurl }}/{{ post.permalink }}">
+      <a href="{{ site.baseurl }}{{ post.permalink }}">
         {{ post.title }}
       </a>
     </h4>

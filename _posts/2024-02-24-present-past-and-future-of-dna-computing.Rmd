@@ -1,3 +1,36 @@
+---
+title: "The Past, Present and Future of DNA computing"
+permalink: "/blog/the-past-present-and-future"
+categories: "DNA Computing"
+layout: single
+bibliography: refs.bib
+link-citations: true
+scholar:
+  style: apa
+  locale: en
+output:
+  md_document:
+    variant: gfm
+    preserve_yaml: TRUE
+    pandoc_args: 
+      - "--wrap=preserve"
+knit: (function(inputFile, encoding) {
+  rmarkdown::render(inputFile, encoding = encoding, output_dir = "../_posts") })
+
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    author_profile: false
+    read_time: true
+    comments: true
+    share: true
+    related: true
+    breadcrumbs: false
+tags: dna-computing
+---
+
 I would be giving my Prelim (*which essentially graduates me into a PhD candidate from a PhD student*) in a couple of weeks and I am having serious questions about my intellect and my capability of finishing a PhD (*and to be honest, surviving the prelim*). But I somehow have to prepare some slides and pen a 30-page document, whilst I try to address the comments of a harsh reviewer who hated my first paper :3. Anyhow, I would be reading a lot of papers while preparing my slides. So I thought, why not compile them for the future, more intelligent MEs to peer at, and be less anxious! Maybe, this will motivate me to read the paper till the end. So, here goes.
 
 ## Seesaw gates
@@ -13,6 +46,7 @@ introduced the design of seesaw gates in the context of boolean logic computatio
 Figure: A schematic of a seesaw operation, with input S2-T-S5.
 
 </figcaption>
+
 </figure>
 
 In the first stage, catalytic amplification and thresholding happens. A point to note is that these gates assume that the thresholding happens much faster than the strand displacement (increases the toehold length of $Th_{2,5:5}$ complex). The gate operation happens in two stages using two different seesaw gates. In the first stage, the output is generated and thresholded. In the second stage, the generated outputs from each of the upstream gates is integrated at the “Integration” gates. The final output is again thresholded and the rest is sent to the reporter for output generation.
@@ -21,10 +55,10 @@ By imposing the concentrations of the gates to be $1\times$ and the threshold to
 
 **Possible improvements**
 
-- Can the gates be replenished somehow? Currently, they are one-shot devices.
-- Can we somehow forego the fuel complexes and figure out a way to implement automatic buffering?
-- How can we speed up computation?
-- Also check: Qian and Winfree ([2011b](#ref-Qian2011-xs)) \| Garg et al. ([2018](#ref-sudhanshu2018renewable)) \| Reif ([2011](#ref-reif2011scaling)) \| Seelig et al. ([2006](#ref-Seelig2006-xr)) \| Seelig, Yurke, and Winfree ([2006](#ref-seelig2006catalyzed))
+-   Can the gates be replenished somehow? Currently, they are one-shot devices.
+-   Can we somehow forego the fuel complexes and figure out a way to implement automatic buffering?
+-   How can we speed up computation?
+-   Also check: Qian and Winfree ([2011b](#ref-Qian2011-xs)) \| Garg et al. ([2018](#ref-sudhanshu2018renewable)) \| Reif ([2011](#ref-reif2011scaling)) \| Seelig et al. ([2006](#ref-Seelig2006-xr)) \| Seelig, Yurke, and Winfree ([2006](#ref-seelig2006catalyzed))
 
 ## 2. Reaction-Diffusion patterns in DSD-based CRNs
 
@@ -43,54 +77,39 @@ In the Lotka-Volterra oscillator, they observed periodic oscillatory waves, albe
 Figure: Reaction-Diffusion patterns in a Lotka-Volterra oscillator.
 
 </figcaption>
+
 </figure>
 
-More stable, equilibrium patterns were observed in the reaction-diffusion system of a majority consensus system. <span style="color:green">Remarkably, these patterns were qualitatively unaffected by leaks, as is the case with consensus algorithms.</span>
+More stable, equilibrium patterns were observed in the reaction-diffusion system of a majority consensus system. [Remarkably, these patterns were qualitatively unaffected by leaks, as is the case with consensus algorithms.]{style="color:green"}
 
 ## Bibliography
 
-<div id="refs" class="references csl-bib-body hanging-indent" entry-spacing="0">
-
-<div id="ref-Dalchau2014-kn" class="csl-entry">
-
+::: {#refs .references .csl-bib-body .hanging-indent entry-spacing="0"}
+::: {#ref-Dalchau2014-kn .csl-entry}
 Dalchau, Neil, Georg Seelig, and Andrew Phillips. 2014. “Computational Design of Reaction-Diffusion Patterns Using DNA-Based Chemical Reaction Networks.” In *DNA Computing and Molecular Programming*, 84–99. Springer International Publishing.
+:::
 
-</div>
-
-<div id="ref-sudhanshu2018renewable" class="csl-entry">
-
+::: {#ref-sudhanshu2018renewable .csl-entry}
 Garg, Sudhanshu, Shalin Shah, Hieu Bui, Tianqi Song, Reem Mokhtar, and John H Reif. 2018. “Renewable Time?responsive DNA Circuits.” *Small* 14: 1801470. <https://doi.org/10.1002/smll.201801470>.
+:::
 
-</div>
-
-<div id="ref-Qian2011-bx" class="csl-entry">
-
+::: {#ref-Qian2011-bx .csl-entry}
 Qian, Lulu, and Erik Winfree. 2011a. “Scaling up Digital Circuit Computation with DNA Strand Displacement Cascades.” *Science* 332 (6034): 1196–1201.
+:::
 
-</div>
-
-<div id="ref-Qian2011-xs" class="csl-entry">
-
+::: {#ref-Qian2011-xs .csl-entry}
 ———. 2011b. “A Simple DNA Gate Motif for Synthesizing Large-Scale Circuits.” *J. R. Soc. Interface* 8 (62): 1281–97.
+:::
 
-</div>
+::: {#ref-reif2011scaling .csl-entry}
+Reif, John H. 2011. “[Scaling up DNA computation]{.nocase}.” *Science* 332 (6034): 1156–57.
+:::
 
-<div id="ref-reif2011scaling" class="csl-entry">
-
-Reif, John H. 2011. “<span class="nocase">Scaling up DNA computation</span>.” *Science* 332 (6034): 1156–57.
-
-</div>
-
-<div id="ref-Seelig2006-xr" class="csl-entry">
-
+::: {#ref-Seelig2006-xr .csl-entry}
 Seelig, Georg, David Soloveichik, David Yu Zhang, and Erik Winfree. 2006. “Enzyme-Free Nucleic Acid Logic Circuits.” *Science* 314 (5805): 1585–88.
+:::
 
-</div>
-
-<div id="ref-seelig2006catalyzed" class="csl-entry">
-
+::: {#ref-seelig2006catalyzed .csl-entry}
 Seelig, Georg, Bernard Yurke, and Erik Winfree. 2006. “Catalyzed Relaxation of a Metastable DNA Fuel.” *Journal of the American Chemical Society* 128 (37): 12211–20.
-
-</div>
-
-</div>
+:::
+:::
