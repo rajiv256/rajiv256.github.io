@@ -52,6 +52,7 @@
     <div class="wrapper">
         <header>
             <div>
+                <ul><a href="{{ site.url }}"><strong>home</strong></a></ul>
                 {% for link in site.data.navigation.main %}
                 {% if link.url contains 'http' %}
                 {% assign domain = '' %}
