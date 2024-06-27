@@ -1,0 +1,34 @@
+---
+title: "Jurisprudence"
+permalink: "/blog/the-jurisprudence"
+categories: "civics"
+layout: single
+bibliography: refs.bib
+link-citations: true
+scholar:
+  style: apa
+  locale: en
+output:
+  md_document:
+    variant: gfm
+    preserve_yaml: TRUE
+    pandoc_args: 
+      - "--wrap=preserve"
+knit: (function(inputFile, encoding) {
+  rmarkdown::render(inputFile, encoding = encoding, output_dir = "../_posts") })
+
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    author_profile: false
+    read_time: true
+    comments: true
+    share: true
+    related: true
+    breadcrumbs: false
+tags: law
+---
+
+What happens if someone puts a wrongful lawsuit against me. But I have time critical issues that disallows me any free time. Do I have to put off until after the lawsuit is cleared out?

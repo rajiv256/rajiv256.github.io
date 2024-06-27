@@ -37,11 +37,7 @@ I would be giving my Prelim (*which essentially graduates me into a PhD candidat
 
 @Qian2011-bx introduced the design of seesaw gates in the context of boolean logic computation. Each of these gates contain a base strand containing a “recognition” domain flanked on either sides by two toeholds. One of these toeholds is free, whereas the other is occupied by an incumbent signal strand. Seesaw gates enable catalytic signal transduction. The addition of the input displaces this outgoing strand, occupies the recognition domain, and opens up the previously bound toehold. A fuel strand then occupies this free toehold displacing the input back into its single-stranded form. Here, it is worth noting that each signal strand is designed such that it has a toehold in the middle, surrounding on the either side by recognition domains. Each of these recognition domains represent the gate they are returning from and the gate they are impinging upon, respectively.
 
-<figure>
-
-[![Figure 1: Seesaw gate architecture.](images/seesaw_gate.png){alt="Figure: Reaction-Diffusion patterns in a Lotka-Volterra oscillator."}](Figure 1)
-
-</figure>
+<figure>[![Figure 1: Seesaw gate architecture.](images/seesaw_gate.png){alt="Figure: Reaction-Diffusion patterns in a Lotka-Volterra oscillator."}](Figure%201)</figure>
 
 In the first stage, catalytic amplification and thresholding happens. A point to note is that these gates assume that the thresholding happens much faster than the strand displacement (increases the toehold length of $Th_{2,5:5}$ complex). The gate operation happens in two stages using two different seesaw gates. In the first stage, the output is generated and thresholded. In the second stage, the generated outputs from each of the upstream gates is integrated at the “Integration” gates. The final output is again thresholded and the rest is sent to the reporter for output generation.
 
