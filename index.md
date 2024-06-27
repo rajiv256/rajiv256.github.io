@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-Good tidings! This is Rajiv, a PhD student in the CompSci department at Duke. Here, I work with <a href="https://users.cs.duke.edu/~reif/">Prof. John Reif</a> in the field of Natural Computing (<a href="https://www.dna.caltech.edu/DNAresearch_perspective.html">huh?</a>). Some sane people refer to this field as DNA Computing, as we use synthetic DNA oligonucleotides to perform various computations in the chemical medium. When I am not worried about my future, I like to play chess/badminton, read classical literature, and watch movies. 
+Good tidings! This is Rajiv, a PhD student in the CompSci department at Duke. Here, I work with <a href="https://users.cs.duke.edu/~reif/">Prof. John Reif</a> in the field of Natural Computing (<a href="https://www.dna.caltech.edu/DNAresearch_perspective.html">huh?</a>). Some sane people refer to this field as DNA Computing, as we use synthetic DNA oligonucleotides to perform various computations in the chemical medium. When I am not worried about my future, I like to play chess/badminton, read classical literature, and watch movies. I occasionally write poems and stories <a href="https://rajivteja.wordpress.com/"> here</a>. Read at your own risk! 
 
 ## Research Interests
 
