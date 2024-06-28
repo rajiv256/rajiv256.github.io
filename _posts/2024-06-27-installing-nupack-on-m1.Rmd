@@ -10,7 +10,7 @@ scholar:
   locale: en
 output:
   md_document:
-    variant: gfm
+    variant:  markdown+backtick_code_blocks+autolink_bare_uris
     preserve_yaml: TRUE
     pandoc_args: 
       - "--wrap=preserve"

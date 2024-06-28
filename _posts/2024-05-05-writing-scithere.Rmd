@@ -4,7 +4,7 @@ permalink: "/blog/writing-scithere"
 categories: "Programming"
 output:
   md_document:
-    variant: gfm
+    variant: kramdown
     preserve_yaml: TRUE
     pandoc_args: 
       - "--wrap=preserve"
