@@ -31,6 +31,8 @@ defaults:
 tags: dna-computing
 ---
 
+# Installing NUPACK on M1 Mac \>.\<
+
 Let’s be honest. The M1 Mac was designed to make the already hard life of graduate students who code much harder. I was trying to install NUPACK and it failed me in more ways than my eight standard economics quiz. I am not really a rule follower so I also don’t follow the official documentation word-by-word which could also be a ‘small’ and ‘insignificant’ reason for my troubles. Either way, closely following the <a href="https://docs.nupack.org/start/#maclinux-installation"> official documentation</a> could get you where you want to.
 
 I am gonna repeaat the instructions here so that you’d be assured that atleast someone got it working on an M1. The documentation linked above first asks you to download the version of NUPACK from the official page that is marked as “M1”. Hand to God, I didn’t find a single distribution that was labeled “M1”. So, I did eenie-meenie-monie with the distributions and picked…just kidding. Like any respectable computer scientist would, I picked the latest version.
