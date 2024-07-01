@@ -14,6 +14,9 @@ output:
     preserve_yaml: TRUE
     pandoc_args: 
       - "--wrap=preserve"
+  html_document:
+    toc: true
+    toc_float: true
 knit: (function(inputFile, encoding) {
   rmarkdown::render(inputFile, encoding = encoding, output_dir = "../_posts") })
 
