@@ -3,6 +3,11 @@ title: "Music app debate"
 permalink: "/blog/music-app-debate"
 categories: "General"
 output:
+  md_document:
+    variant: markdown+backtick_code_blocks+autolink_bare_uris
+    preserve_yaml: TRUE
+    pandoc_args: 
+      - "--wrap=preserve"
   html_document:
     toc: true
     toc_float: true
