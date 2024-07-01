@@ -3,11 +3,10 @@ title: "HIV Virus"
 permalink: "/blog/hiv-virus"
 categories: "Science"
 output:
-  md_document:
-    variant: markdown+backtick_code_blocks+autolink_bare_uris
-    preserve_yaml: TRUE
-    pandoc_args: 
-      - "--wrap=preserve"
+  output:
+ html_document:
+    toc: true
+    toc_float: true
 knit: (function(inputFile, encoding) {
   rmarkdown::render(inputFile, encoding = encoding, output_dir = "../_posts") })
 
