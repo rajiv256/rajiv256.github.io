@@ -8,7 +8,6 @@ output:
     preserve_yaml: TRUE
     pandoc_args: 
       - "--wrap=preserve"
-    toc: true
   html_document:
     toc: true
     toc_float: true
@@ -32,8 +31,6 @@ defaults:
 tags: music
 ---
 
--   [Music app debate](#music-app-debate){#toc-music-app-debate}
-
 # Music app debate
 
 What is the best music app? Is it Spotify? Is it Apple Music? Is it Amazon Music? Or is it YouTube Music (lol)? I often get into this debate with my friends. Here, I am gonna provide an Indian perspective. India is a musical nation from the very beginning of its origins @popley1921musical. Music is interspersed in the country's cultural heritage and the insane diversity of the music exemplifies this @rowell2015music. But I diverge. That's not the topic of today! For now the references provided should do!
@@ -42,4 +39,4 @@ So, the reason for my detour rant is to emphasize that the diversity of Indian m
 
 There are several questions that need answered. First, what is the baseline for best audio experience. Since I use Airpods as does [35% of Americans](https://www.statista.com/chart/26791/most-popular-headphone-brands-in-the-us/) (let's assume that US is the only country in the world for now), I am going to assume that the listener is using Airpods. This implies that the music is transcribed from its encoded format in the Airpods instead of on the phone. In this case, Apple already has an unfair advantage as it might be able to encode its music in a form that is compatible with the Airpods (just guessing here!).
 
-Welp! It looks like Apple Music provides lossless audio, which Spotify simply doesn't. Also, I HATE Spotify's shuffle functionality that plays the same 10 songs in my Playlist. It also seems like there is a sing-along functionality in Apple music which seems exciting for me. So for now, I switched to Spotify's student plan and included Apple Music subcription, which combined comes to the cost of Spotify premium. I am gonna keep them both. Oops, this was gonna be some technically detailed blog. But some days, it do be like that. Fin.
+Welp! It looks like Apple Music provides lossless audio, which Spotify simply doesn't. Also, I HATE Spotify's shuffle functionality that plays the same 10 songs in my Playlist. It also seems like there is a sing-along functionality in Apple music which seems exciting for me. So for now, I switched to Spotify's student plan and included Apple Music subcription, which combined comes to the cost of Spotify premium. I am gonna keep them both. Oops, this was gonna be some technically detailed blog. But some days, it do be like that. Also, it looks like Apple Music has Dolby Atmos lol. I am sold! Fin.
