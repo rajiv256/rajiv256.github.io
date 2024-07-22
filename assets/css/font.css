@@ -2,10 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
 
 body {
-  background-color: #fff;
+  background-color: #fafafa;
   padding:0px;
-  font: 16.0px/1.5 Crimson Pro, serif; 
+  font: 17.0px/1.5 Crimson Pro, serif; 
   color:#595959;
   font-weight:400;
-  margin:0
+  margin:0;
+  background: url('https://source.unsplash.com/1600x900/?forest') no-repeat center center fixed;
+  background-size: cover;
 }
