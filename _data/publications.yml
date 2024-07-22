@@ -1,22 +1,28 @@
 main:
 
-  - title: Continual Learning for Abdominal Multi-Organ and Tumor Segmentation
-    authors: Yixiao Zhang, Xinyi Li, Huimiao Chen, Alan Yuille, <strong>Yaoyao Liu*</strong>, Zongwei Zhou* (*Corresponding authors)
-    conference_short: MICCAI
-    conference: International Conference on Medical Image Computing and Computer-Assisted Intervention <strong>(MICCAI)</strong>, 2023.
-    pdf: https://arxiv.org/pdf/2306.00988.pdf
-    code: https://github.com/MrGiovanni/ContinualLearning
-    bibtex: https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img/teaser_example_2.png
-    notes: Early Accept
+  - title: Leak-resilient enzyme-free nucleic acid dynamical systems through shadow cancellation
+    authors: Rajiv Teja Nagipogu* and John H. Reif
+    journal: Royal Society Interface
+    conference: Journal of the Royal Society Interface
+    code: https://github.com/Reif-Group/shadow-cancellation
+    pdf: https://doi.org/10.1098/rsif.2024.0053
+    image: ./assets/img/shadow-cancellation.jpg
 
-  - title: "Mnemonics Training: Multi-Class Incremental Learning without Forgetting"
-    authors: <strong>Yaoyao Liu</strong>, Yuting Su, An-An Liu, Bernt Schiele, Qianru Sun
-    conference_short: CVPR
-    conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2020.
-    pdf: https://arxiv.org/pdf/2002.10211.pdf
-    code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
-    page: https://class-il.mpi-inf.mpg.de/mnemonics/
-    bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-    notes: Oral Presentation
-    image: ./assets/img/teaser_example.png
+  - title: A survey on molecular-scale learning systems with relevance to DNA computing
+    authors: Rajiv Teja Nagipogu*, Dan Fu and John H. Reif
+    conference: Nanoscale
+    pdf: https://doi.org/10.1039/D2NR06202J
+    image: ./assets/img/survey-molecular-learning.jpeg
+
+  - title: (WikiSeeAlso) Suggesting Tangentially Related Concepts (See also links) for Wikipedia Articles
+    authors: Sahiti Labhishetty*, Rajiv Teja Nagipogu*, Ayesha Siddiqa and Sutanu Chakraborti
+    conference: Mining Intelligence and Knowledge Exploration
+    pdf: https://link.springer.com/chapter/10.1007/978-3-319-71928-3_27
+    notes: equal contribution*
+    image: ./assets/img/wikiseealso.png
+
+  - title: (MuRIL) Multilingual Representations for Indian Languages
+    authors: Simran Khanuja, ..., Rajiv Teja Nagipogu*, Partha Talukdar
+    pdf: https://arxiv.org/abs/2103.10730
+    notes: team member*
+    image: ./assets/img/muril.png

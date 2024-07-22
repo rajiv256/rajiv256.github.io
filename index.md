@@ -1,23 +1,27 @@
 ---
 layout: homepage
 ---
+## Lil' Intro
 
-## About Me
-
-I am a Ph.D. student at ...
+Good tidings! This is Rajiv, a PhD student in the CompSci department at Duke. Here, I work with <a href="https://users.cs.duke.edu/~reif/">Prof. John Reif</a> in the field of Natural Computing (<a href="https://www.dna.caltech.edu/DNAresearch_perspective.html">huh?</a>). Some sane people refer to this field as DNA Computing, as we use synthetic DNA oligonucleotides to perform various computations in the chemical medium. When I am not worried about my future, I like to play chess/badminton, read classical literature, and watch movies. I occasionally write poems and stories <a href="https://rajivteja.wordpress.com/"> here</a>. Recently, I started penning down my dilettante views on Indian politics <a href="https://indpolitico.blogspot.com/"> here </a>.
 
 ## Research Interests
 
-- **Computer Vision:** image recognition, image generation, video captioning
-- **Machine Learning:** meta-learning, incremental learning, transfer learning
+- **Natural Computing:** dna computing, molecular computing, chemical reaction networks
+- **Machine Learning:** chemical learning, adaptive molecular systems
 
-## News
+## Timeline
 
-- **[Feb. 2020]** Our paper about incremental learning is accepted to CVPR 2020.
-- **[Feb. 2020]** We will host the ACM Multimedia Asia 2020 conference in Singapore!
-- **[Sept. 2019]** Our paper about few-shot learning is accepted to NeurIPS 2019.
-- **[Mar. 2019]** Our paper about few-shot learning is accepted to CVPR 2019.
+- **[Jun 2024]**: Paper published in the Royal Society Interface journal <a href="https://royalsocietypublishing.org/doi/10.1098/rsif.2024.0053">[Paper]</a>
+- **[Aug 2022]**: Awarded the GPNANO fellowship for the Fall 2022 semester
+- **[May 2022]**: Defended the Research Initiation Project proposal
+- **[Aug 2021]**: Joined the Computer Science PhD program at Duke University, Durham NC
+- **[Mar 2020]**: Joined Google Research as a contract employee through Optimum
+- **[Dec 2018]**: Left PayPal and joined Kenome.io 
+- **[Aug 2017]**: Joined PayPal
+- **[Oct 2017]**: Paper accepted to MIKE 2017
+- **[Jul 2017]**: Received my undergraduate degree from the CS department at IIT Madras
+- **[Apr 2017]**: Submitted my undergraduate thesis on [A Unikernel Webserver in
+    Rust](https://rajiv256.github.io/projects/ouros/)
 
 {% include_relative _includes/publications.md %}
-
-{% include_relative _includes/services.md %}

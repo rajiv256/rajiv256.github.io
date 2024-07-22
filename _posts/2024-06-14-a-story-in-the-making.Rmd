@@ -1,0 +1,30 @@
+---
+title: ""
+permalink: "/blog/a-story-in-the-making"
+categories: "Literature"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    code_folding: show
+    keep_md: false
+knit: (function(inputFile, encoding) {
+  rmarkdown::render(inputFile, encoding = encoding, output_dir = "../_posts") })
+csl: citations.csl
+
+layout: single
+bibliography: refs.bib
+link-citations: true
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    author_profile: false
+    read_time: true
+    comments: true
+    share: true
+    related: true
+    breadcrumbs: false
+tags: literature
+---

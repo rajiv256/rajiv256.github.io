@@ -1,0 +1,20 @@
+---
+title: "Demistifying English Grammar"
+permalink: "/blog/demistifying-english-grammar"
+categories: "Grammar"
+layout: postpage
+bibliography: refs.bib
+link-citations: true
+scholar:
+  locale: en
+output:
+  md_document:
+    variant: gfm
+    preserve_yaml: true
+    dev: "png"
+    df_print: default
+csl: citations.csl
+tags: english, grammar
+---
+
+As a non-native speaker, I have struggled and am struggling (thankfully much less so) with the grammar usage or even forming proper sentences or in speaking fluently (it's possible that I don't have adequate amount of verbs in my vocabulary (it's true, look it up!)). So this is my attempt at demistifying the English grammar and to see if there is a way to read and write English fluently. I believe, putting it into words and figures drives the point and might even illuminate me about few things!

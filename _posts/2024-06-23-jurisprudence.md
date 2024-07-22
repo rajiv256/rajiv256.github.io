@@ -1,0 +1,24 @@
+---
+title: "Jurisprudence"
+permalink: "/blog/the-jurisprudence"
+categories: "civics"
+bibliography: refs.bib
+layout: postpage
+link-citations: true
+scholar:
+  locale: en
+output:
+  md_document:
+    variant: gfm
+    preserve_yaml: true
+    dev: "png"
+    df_print: default
+csl: citations.csl
+tags: law
+---
+
+# Jurisprudence
+
+What happens if someone puts a wrongful lawsuit against me. But I have
+time critical issues that disallows me any free time. Do I have to put
+off until after the lawsuit is cleared out?
