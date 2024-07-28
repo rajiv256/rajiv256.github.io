@@ -20,7 +20,8 @@
 
 Vim is cute, if you're into that kinda thing. Here, I am sharing the my personal `.vimrc` which I am quite satisfied with. This is all the setup you need!
 
-```
+
+```bash
 syntax on
 
 set number 
