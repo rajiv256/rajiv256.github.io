@@ -15,7 +15,7 @@ defaults:
         {{ post.title }}
       </a>
     </span>
-    <span class="post-date"> (<i>{{ post.date | date_to_string }}</i>)</span>
+    <span class="post-date"> (<i>{{ post.date | date_to_string }}</i></span><i>{% include read-time.html %}</i>)
     <br>
   {% endfor %}
 </div>
