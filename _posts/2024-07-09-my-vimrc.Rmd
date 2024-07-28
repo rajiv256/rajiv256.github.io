@@ -18,7 +18,7 @@
   
 # My vimrc
 
-Vim is cute, if you're into that kinda thing. Here, I am sharing the my personal `.vimrc` which I am quite satisfied with. This is all the setup you need!
+Vim is cute, if you're into that kinda thing. Here, I am sharing the my personal `.vimrc` which I am quite satisfied with. It's got code completion, syntax highlighting, file searching, file explorer, opening a file in a new tab, automatic bracket close and open, ways to refactor the code, formatting the code, and many more features I probably forgot it has. Tabs can be switched using `Shift+Tab`. 
 
 
 ```bash
