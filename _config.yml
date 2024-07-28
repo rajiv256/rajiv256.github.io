@@ -57,7 +57,7 @@ exclude:
   - _posts/*.Rmd
   - _posts/*.html
   # - _posts/*.md
-
+markdown: kramdown
 kramdown:
  input: GFM
  hard_wrap: false
