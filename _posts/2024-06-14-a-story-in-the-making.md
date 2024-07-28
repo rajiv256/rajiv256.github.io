@@ -19,4 +19,7 @@ tags: literature
 
 # Foreword
 
-I ended my previous novella with a footnote that says *The best way to get over a girl is to turn her into literature*. Here I am, yet again, with but a glimpse of a story that keeps appearing in my head periodically. So here goes nothing.
+I ended my previous novella with a footnote that says *The best way to
+get over a girl is to turn her into literature*. Here I am, yet again,
+with but a glimpse of a story that keeps appearing in my head
+periodically. So here goes nothing.
