@@ -3,7 +3,9 @@ layout: homepage
 ---
 ## Lil' Intro
 
-Good tidings! This is Rajiv, a PhD student in the CompSci department at Duke. Here, I work with <a href="https://users.cs.duke.edu/~reif/">Prof. John Reif</a> in the field of Natural Computing (<a href="https://www.dna.caltech.edu/DNAresearch_perspective.html">huh?</a>). Some sane people refer to this field as DNA Computing, as we use synthetic DNA oligonucleotides to perform various computations in the chemical medium. When I am not worried about my future, I like to play chess/badminton, read classical literature, and watch movies. I occasionally write poems and stories <a href="https://rajivteja.wordpress.com/"> here</a>. Recently, I started penning down my dilettante views on Indian politics <a href="https://indpolitico.blogspot.com/"> here </a>.
+Good tidings! This is Rajiv, a PhD student in the CompSci department at Duke. Here, I work with <a href="https://users.cs.duke.edu/~reif/">Prof. John Reif</a> in the field of Natural Computing (<a href="https://www.dna.caltech.edu/DNAresearch_perspective.html">huh?</a>). Some sane people refer to this field as DNA Computing, as we use synthetic DNA molecules to create nanoscale computers in the chemical medium. Can we make them to be modular, self-sufficient systems? That is the question. 
+
+When I am not worried about my future, I like to play chess/badminton, read classical literature, and watch movies. I occasionally write poems and stories <a href="https://rajivteja.wordpress.com/"> here</a>. Recently, I started penning down my dilettante views on Indian politics <a href="https://indpolitico.blogspot.com/"> here </a>.
 
 **PSA:** If you are a prospective graduate student applying for PhD programs in Computer Science (or any other field
 , really) I highly recommend reading <a href="https://www.cs.cmu.edu/~harchol/gradschooltalk.pdf"> The Gradschool
