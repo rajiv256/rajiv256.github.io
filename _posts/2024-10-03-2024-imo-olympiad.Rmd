@@ -19,7 +19,7 @@ tags: math
 
 # Problem 1
 
-![](images/clipboard-2591436498.png)
+![Statement](images/clipboard-2591436498.png)
 
 *Solution*
 
