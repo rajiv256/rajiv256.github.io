@@ -43,6 +43,8 @@ $$
 
 ![](images/clipboard-86672959.png)
 
+*Solution*
+
 $$
 \text{There exists some symmetry between } a \text{ and } b. \\ 
 \gcd(a^n + b, b^n + a) = g \implies (a^n + b) | g \  \& \ (b^n + a) | g  \\ 
