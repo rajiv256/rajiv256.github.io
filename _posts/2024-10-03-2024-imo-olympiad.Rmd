@@ -48,8 +48,13 @@ $$
 $$
 \text{There exists some symmetry between } a \text{ and } b. \\ 
 \gcd(a^n + b, b^n + a) = g \implies (a^n + b) | g \  \& \ (b^n + a) | g  \\ 
-\text{If } a^n \ \% \  g = c, \text{then } b \ \% \ g = g - c \text{ where } 0 \leq c \leq g-1\\ 
+\text{If } a^n \ \% \  g = c, \text{then } b \ \% \ g = g - c \quad \forall n \geq N \quad 0 \leq c \leq g-1\\ 
 \text{Further, Consider the two cases where } n = N \ \& \ n = N+1 \\
 a^N \ \% \ g = c \ \& \ a^{N+1} \ \% \ g = c, ...\forall n \geq N \\ 
-\implies a \ \% \ g = c, a^2 \ \% \ g = c , ...  
+\implies ac \mod g = c \\ 
+ac = qg + c  \\ 
+(a-1) \mod g = 0; \text{ Similarly, } (b-1) \mod g = 0 \\ 
+\text{Further, } (a^k - 1) \mod g = 0 \quad k \in Z^+ \\ 
+\implies a = 1 \mod g; b = 1 \mod g \\ 
+\text{Now, consider } a^n + b = 2 \mod g \\
 $$
