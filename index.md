@@ -11,8 +11,8 @@ Talk by Prof. Mor Harchol-Balter</a>.
 
 ## Research Interests
 
-- **BioMolecular Computing:** what is the information processing capability of a bag of reacting molecules?
-- **Chemical Learning:** branching off from the above topic, can we build adaptive molecular systems that can operate autonomously?
+- **Biomolecular Computing:** What are the information processing capabilities of a bag of reacting biomolecules (e.g., dna, rna)?
+- **Chemical Learning:** Can we make these systems to be adaptive and operate autonomously?
 
 ## Timeline
 
