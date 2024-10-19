@@ -633,11 +633,22 @@ body {
   background-color: #f8f9fa;
   /* Light background color */
   flex-direction: column;
-  /* Stack elements vertically */
-  background-image: url('background.png'); /* Replace with your image path */
+}
+
+body::before {
+  content: "";
+  background-image: url('background.png');
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
+  opacity: 0.2;
+  /* Set opacity to 20% */
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  /* Ensure it stays behind content */
 }
 
 /* CSS for the blog title */
