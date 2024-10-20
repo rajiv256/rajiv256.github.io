@@ -11,7 +11,7 @@ Talk by Prof. Mor Harchol-Balter</a>.
 
 ## Research Interests
 
-- **Biomolecular Computing:** What are the information processing capabilities of a bag of reacting biomolecules (e.g., dna, rna)?
+- **Biomolecular Computing:** What kind of information processing capabilities does a bag of reacting biomolecules (e.g., dna, rna) possess?
 - **Biochemical Learning:** Can we make these systems to be adaptive and operate autonomously?
 
 ## Timeline
