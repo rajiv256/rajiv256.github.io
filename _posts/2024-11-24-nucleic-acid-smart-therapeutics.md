@@ -1,0 +1,75 @@
+---
+title: "Notes on nucleic acid-based smart therapeutics"
+permalink: "/blog/notes-nucleic-acid-smart-therapeutics"
+categories: "Natural Computing"
+layout: postpage
+bibliography: refs.bib
+link-citations: true
+scholar:
+  locale: en
+output:
+  md_document:
+    variant: gfm
+    preserve_yaml: true
+    dev: "png"
+    df_print: default
+csl: citations.csl
+tags: programming, python
+---
+
+##### *4 pm EST*
+
+This is an attempt at programming a website, that helps interested
+readers to serendipitously find papers from varied fields. Tentatively,
+my thoughts are that, the website presents one paper per day. It
+refreshes at midnight. Kindof like xkcd comics. The idea is to collect
+as much stuff about a paper automatically and present it to the reader.
+Additional thing would be to generate a summary using a language model.
+Then, I might think about putting it up on the web. (I have my beer and
+chakna on the side; if you are my mom, it is ginger ale and chakna). Let
+the programming begin!
+
+# 
+
+First, what is the source repository of the papers to extract? ArXiv is
+probably the easiest because it is freely available. But the papers
+there are also restricted i.e., mostly concentrated in physics and
+computer science? But then there is bioRXiv. One thing to do is use
+Google scholar for the metadata and see if the paper is available in any
+of these repository sites.
+
+So what package in python to use for this purpose?
+[Scholarly](https://pypi.org/project/scholarly/_) seem to be the most
+obvious opensource choice. Let’s try it out.
+
+##### *4.52 pm EST*
+
+Got a list of journals and a way to query google scholar with this list.
+I feel like the Mark Zuck character from social network. My typing speed
+is insane right now. fin.
+
+Anyhow, self-aggrandizing aside, I got the list of top 100 journals
+listed on google scholar. That should suffice for now.
+
+But how to generate the search query for publications or list the
+publications? Scholarly only supports retrieval based on the keywords.
+
+One idea is to use ChatGPT to generate a science-y search key and then
+query scholarly with that. Working on that!
+
+Ok maybe I will use a Hugging face model lol, instead of chatgpt.
+
+Ok for now, I am not sure how to get the queries in place. But, let’s
+first try to get the rest of the infra in place.
+
+Haha, I found a trick. I simply query the journal name. Then, I go down
+n (generated randomly) number of publications down. Then, find an
+article. Then go to some related articles. Then repeat a couple times.
+And then finally get to an article.
+
+##### *6.52 pm EST*
+
+Ok for now, let’s go down until there is a PDF.
+
+I think I exceeded max tries for today. So I will stop for now! Maybe
+resurrect this next week! This was fun!
