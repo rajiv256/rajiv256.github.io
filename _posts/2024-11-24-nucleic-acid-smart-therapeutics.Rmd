@@ -17,34 +17,20 @@ csl: citations.csl
 tags: programming, python
 ---
 
-##### *4 pm EST*
+##  Papers
 
-This is an attempt at programming a website, that helps interested readers to serendipitously find papers from varied fields. Tentatively, my thoughts are that, the website presents one paper per day. It refreshes at midnight. Kindof like xkcd comics. The idea is to collect as much stuff about a paper automatically and present it to the reader. Additional thing would be to generate a summary using a language model. Then, I might think about putting it up on the web. (I have my beer and chakna on the side; if you are my mom, it is ginger ale and chakna). Let the programming begin!
+@Zhang2021-ta,
 
-# 
+### Main points
 
-First, what is the source repository of the papers to extract? ArXiv is probably the easiest because it is freely available. But the papers there are also restricted i.e., mostly concentrated in physics and computer science? But then there is bioRXiv. One thing to do is use Google scholar for the metadata and see if the paper is available in any of these repository sites.
+-   Nucleic acid therapeutics are third most emerging technology and substrate after small-molecules and antibodies.
 
-So what package in python to use for this purpose? [Scholarly](https://pypi.org/project/scholarly/_) seem to be the most obvious opensource choice. Let's try it out.
+-   Simple, fast, and cost-effective.
 
-##### *4.52 pm EST*
+-   RNA therapeutics doesn't induce mutagenesis such as DNA does.
 
-Got a list of journals and a way to query google scholar with this list. I feel like the Mark Zuck character from social network. My typing speed is insane right now. fin.
+-   Conditional execution have not been figured out. Most DNA/RNA therapeutics are delivered to their action site. Lipid Nano particles (LNPs) are also a delivery vehicle.
 
-Anyhow, self-aggrandizing aside, I got the list of top 100 journals listed on google scholar. That should suffice for now.
+-   Alternative strategy is to enhance specificity by incorporating computing into the circuits—triggers as 'input', programming modalities as the 'transducer' and the output as the 'effector'.
 
-But how to generate the search query for publications or list the publications? Scholarly only supports retrieval based on the keywords.
-
-One idea is to use ChatGPT to generate a science-y search key and then query scholarly with that. Working on that!
-
-Ok maybe I will use a Hugging face model lol, instead of chatgpt.
-
-Ok for now, I am not sure how to get the queries in place. But, let's first try to get the rest of the infra in place.
-
-Haha, I found a trick. I simply query the journal name. Then, I go down n (generated randomly) number of publications down. Then, find an article. Then go to some related articles. Then repeat a couple times. And then finally get to an article.
-
-##### *6.52 pm EST*
-
-Ok for now, let's go down until there is a PDF.
-
-I think I exceeded max tries for today. So I will stop for now! Maybe resurrect this next week! This was fun!
+-   
