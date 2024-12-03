@@ -46,12 +46,6 @@ $$
 *Solution*
 
 $$
-\text{There exists some symmetry between } a \text{ and } b. \\ 
-\gcd(a^n + b, b^n + a) = g \implies (a^n + b) | g \  \& \ (b^n + a) | g  \\ 
-\text{If } a^n \ \% \  g = c, \text{then } b \ \% \ g = g - c \quad \forall n \geq N \quad 0 \leq c \leq g-1\\ 
-\text{Further, Consider the two cases where } n = N \ \& \ n = N+1 \\
-a^N \ \% \ g = c \ \& \ a^{N+1} \ \% \ g = c, ...\forall n \geq N \\ 
-\implies ac \mod g = c \\ 
-ac = qg + c  \\ 
-tee-hee loading...
+\text{There must exist some symmetry between } a \text{ and } b. \\ 
+\text{This might require the application of the chinese remainder theorem.}
 $$

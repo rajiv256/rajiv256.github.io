@@ -17,9 +17,9 @@ csl: citations.csl
 tags: programming, python
 ---
 
-##  Papers
+## Papers
 
-@Zhang2021-ta,
+@Zhang2021-ta
 
 ### Main points
 

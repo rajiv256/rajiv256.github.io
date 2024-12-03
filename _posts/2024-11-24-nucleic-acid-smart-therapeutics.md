@@ -19,7 +19,9 @@ tags: programming, python
 
 ## Papers
 
-Zhang & Salaita ([2021](#ref-Zhang2021-ta))
+\[[1](#ref-Zhang2021-ta)\]
+
+### Main points
 
 - Nucleic acid therapeutics are third most emerging technology and
   substrate after small-molecules and antibodies.
@@ -28,13 +30,24 @@ Zhang & Salaita ([2021](#ref-Zhang2021-ta))
 
 - RNA therapeutics doesn’t induce mutagenesis such as DNA does.
 
-<div id="refs" class="references csl-bib-body hanging-indent"
-entry-spacing="0" line-spacing="2">
+- Conditional execution have not been figured out. Most DNA/RNA
+  therapeutics are delivered to their action site. Lipid Nano particles
+  (LNPs) are also a delivery vehicle.
+
+- Alternative strategy is to enhance specificity by incorporating
+  computing into the circuits—triggers as ‘input’, programming
+  modalities as the ‘transducer’ and the output as the ‘effector’.
+
+- 
+
+<div id="refs" class="references csl-bib-body">
 
 <div id="ref-Zhang2021-ta" class="csl-entry">
 
-Zhang, J., & Salaita, K. (2021). Smart nucleic acids as future
-therapeutics. *Trends Biotechnol.*, *39*(12), 1289–1307.
+<span class="csl-left-margin">1.
+</span><span class="csl-right-inline">Zhang J, Salaita K. Smart nucleic
+acids as future therapeutics. Trends Biotechnol. 2021
+Dec;39(12):1289–307. </span>
 
 </div>
 
