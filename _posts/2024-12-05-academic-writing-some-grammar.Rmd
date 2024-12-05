@@ -1,0 +1,29 @@
+---
+title: "Grammar lessons from my academic writing"
+permalink: /blog/grammar-lessons-from-writing/
+date: 2024-12-05
+layout: postpage
+bibliography: refs.bib
+link-citations: true
+scholar:
+  locale: en
+output:
+  md_document:
+    variant: gfm
+    preserve_yaml: true
+    dev: "png"
+    df_print: default
+csl: citations.csl
+---
+
+I have learnt from experience and reading (too few than I am supposed to) papers, I've realized/others have made me realize that the secret to good writing is proliferating your cache of verbs. Not to mention the correct usage of prepositions. (I can never tell if I should write secret _to_ good writing or secret _for_ good writing.)
+
+## that+<verb> vs. <verb>-ing 
+
+- `that + verb` should be used while introducing a new subject or before a new clause that requires qualifying a specific action being referred to a subject. Simply put `that + verb` to qualify an action. 
+
+_Ex: She admitted that she made a mistake_
+
+- `verb+ing` should be used when the subject is already understood. 
+
+_Ex: He enjoys reading_
