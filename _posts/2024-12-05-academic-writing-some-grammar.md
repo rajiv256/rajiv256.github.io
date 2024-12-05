@@ -22,7 +22,7 @@ verbs. Not to mention the correct usage of prepositions. (I can never
 tell if I should write secret *to* good writing or secret *for* good
 writing.)
 
-## that+ verb vs. verb-ing
+## that+ verb Vs. verb-ing
 
 `that + verb` should be used while introducing a new subject or before a
 new clause that requires qualifying a specific action being referred to
@@ -34,7 +34,7 @@ a subject. Simply put, use `that + verb` to qualify an action.
 
 *Ex: He enjoys reading*
 
-## to+verb vs for+verb+ing
+## to+verb Vs. for+verb+ing
 
 `to + verb` is used to describe why an action was taken.
 
