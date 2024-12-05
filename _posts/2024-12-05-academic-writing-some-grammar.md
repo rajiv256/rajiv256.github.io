@@ -26,10 +26,20 @@ secret *to* good writing or secret *for* good writing.)
 
 - `that + verb` should be used while introducing a new subject or before
   a new clause that requires qualifying a specific action being referred
-  to a subject. Simply put `that + verb` to qualify an action.
+  to a subject. Simply put, use `that + verb` to qualify an action.
 
 *Ex: She admitted that she made a mistake*
 
 - `verb+ing` should be used when the subject is already understood.
 
 *Ex: He enjoys reading*
+
+## to+<verb> vs for+<verb>+ing
+
+- `to + <verb>` is used to describe why an action was taken.
+
+*Ex: He shouldn’t have joined the army to impress people.*
+
+- `for + <verb>` describes a reason or justification for something.
+
+*Ex: HE is known for singing beautifully*
