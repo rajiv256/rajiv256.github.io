@@ -22,7 +22,7 @@ good writing is proliferating your cache of verbs. Not to mention the
 correct usage of prepositions. (I can never tell if I should write
 secret *to* good writing or secret *for* good writing.)
 
-## that+<verb> vs. <verb>-ing
+## that+ verb vs. verb-ing
 
 - `that + verb` should be used while introducing a new subject or before
   a new clause that requires qualifying a specific action being referred
@@ -34,12 +34,12 @@ secret *to* good writing or secret *for* good writing.)
 
 *Ex: He enjoys reading*
 
-## to+<verb> vs for+<verb>+ing
+## to+verb vs for+verb+ing
 
-- `to + <verb>` is used to describe why an action was taken.
+- `to + verb` is used to describe why an action was taken.
 
 *Ex: He shouldn’t have joined the army to impress people.*
 
-- `for + <verb>` describes a reason or justification for something.
+- `for + verb` describes a reason or justification for something.
 
 *Ex: HE is known for singing beautifully*
