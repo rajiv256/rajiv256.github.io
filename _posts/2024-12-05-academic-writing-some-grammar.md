@@ -16,11 +16,11 @@ output:
 csl: citations.csl
 ---
 
-I have learnt from experience and reading (too few than I am supposed
-to) papers, I’ve realized/others have made me realize that the secret to
-good writing is proliferating your cache of verbs. Not to mention the
-correct usage of prepositions. (I can never tell if I should write
-secret *to* good writing or secret *for* good writing.)
+I have learnt from my experience of reading (too few than I am supposed
+to) papers, that the secret to good writing is to expand your cache of
+verbs. Not to mention the correct usage of prepositions. (I can never
+tell if I should write secret *to* good writing or secret *for* good
+writing.)
 
 ## that+ verb vs. verb-ing
 
@@ -28,18 +28,18 @@ secret *to* good writing or secret *for* good writing.)
 new clause that requires qualifying a specific action being referred to
 a subject. Simply put, use `that + verb` to qualify an action.
 
-> *Ex: She admitted that she made a mistake*
+*Ex: She admitted that she made a mistake*
 
 `verb+ing` should be used when the subject is already understood.
 
-> *Ex: He enjoys reading*
+*Ex: He enjoys reading*
 
 ## to+verb vs for+verb+ing
 
 `to + verb` is used to describe why an action was taken.
 
-> *Ex: He shouldn’t have joined the army to impress people.*
+*Ex: He shouldn’t have joined the army to impress people.*
 
 `for + verb` describes a reason or justification for something.
 
-> *Ex: HE is known for singing beautifully*
+*Ex: HE is known for singing beautifully*
