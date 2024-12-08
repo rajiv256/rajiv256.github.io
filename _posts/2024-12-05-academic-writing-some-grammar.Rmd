@@ -16,11 +16,11 @@ output:
 csl: citations.csl
 ---
 
-# Some grammar for dummies (like me)
+## Some grammar for dummies (like me)
 
 I have learnt from my experience of reading (too few than I am supposed to) papers, that the secret to good writing is to expand your cache of verbs. Not to mention the correct usage of prepositions. (I can never tell if I should write secret _to_ good writing or secret _for_ good writing.)
 
-## that+verb Vs. verb-ing 
+### that+verb Vs. verb-ing 
 
 `that+verb` should be used while introducing a new subject or before a new clause that requires qualifying a specific action being referred to a subject. Simply put, use `that+verb` to qualify an action. 
 
@@ -30,7 +30,7 @@ _Ex: She admitted that she made a mistake_
 
 _Ex: He enjoys reading_
 
-## to+verb Vs. for+verb+ing
+### to+verb Vs. for+verb+ing
 
 `to+verb` is used to describe why an action was taken. 
 
