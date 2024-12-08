@@ -16,6 +16,8 @@ output:
 csl: citations.csl
 ---
 
+# Some grammar for dummies (like me)
+
 I have learnt from my experience of reading (too few than I am supposed to) papers, that the secret to good writing is to expand your cache of verbs. Not to mention the correct usage of prepositions. (I can never tell if I should write secret _to_ good writing or secret _for_ good writing.)
 
 ## that+verb Vs. verb-ing 
@@ -24,7 +26,7 @@ I have learnt from my experience of reading (too few than I am supposed to) pape
 
 _Ex: She admitted that she made a mistake_
 
- `verb+ing` should be used when the subject is already understood. 
+ `verb+ing` should be used when the subject is already understood.
 
 _Ex: He enjoys reading_
 
