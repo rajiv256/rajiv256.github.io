@@ -16,7 +16,7 @@ output:
 csl: citations.csl
 ---
 
-## Some grammar for dummies (like me)
+## Some grammar for dummies (like me) 
 
 I have learnt from my experience of reading (too few than I am supposed to) papers, that the secret to good writing is to expand your cache of verbs. Not to mention the correct usage of prepositions. (I can never tell if I should write secret _to_ good writing or secret _for_ good writing.)
 
@@ -40,5 +40,5 @@ _Ex: He shouldn’t have joined the army to impress people._
 
 _Ex: HE is known for singing beautifully_
 
-[![Edit](https://gist.github.com/cxmeel/0dbc95191f239b631c3874f4ccf114e2/raw/SERVICE.svg)](https://www.google.com)
+
 
