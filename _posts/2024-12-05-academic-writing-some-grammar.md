@@ -45,3 +45,5 @@ a subject. Simply put, use `that+verb` to qualify an action.
 `for+verb` describes a reason or justification for something.
 
 *Ex: HE is known for singing beautifully*
+
+[![Edit](https://gist.github.com/cxmeel/0dbc95191f239b631c3874f4ccf114e2/raw/SERVICE.svg)](https://www.google.com)
