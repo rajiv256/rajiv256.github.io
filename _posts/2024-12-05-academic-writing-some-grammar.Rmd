@@ -40,7 +40,7 @@ _Ex: He shouldn’t have joined the army to impress people._
 
 _Ex: HE is known for singing beautifully_
 
-## that Vs. which
+### that Vs. which
 
 `that` should be used for restrictive clauses. A restrictive clause is something that limits the meaning of a noun. 
 

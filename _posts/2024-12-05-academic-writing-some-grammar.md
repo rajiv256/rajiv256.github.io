@@ -46,7 +46,7 @@ a subject. Simply put, use `that+verb` to qualify an action.
 
 *Ex: HE is known for singing beautifully*
 
-## that Vs. which
+### that Vs. which
 
 `that` should be used for restrictive clauses. A restrictive clause is
 something that limits the meaning of a noun.
