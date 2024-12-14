@@ -38,11 +38,11 @@ a subject. Simply put, use `that+verb` to qualify an action.
 
 ## to+verb Vs. for+verb+ing
 
-`to+verb` is used to describe why an action was taken.
+`to+verb` indicates the purpose or intention of an action.
 
 *Ex: He shouldn’t have joined the army to impress people.*
 
-`for+verb` describes a reason or justification for something.
+`for+verb+ing` describes the reason or function of something
 
 *Ex: HE is known for singing beautifully*
 
