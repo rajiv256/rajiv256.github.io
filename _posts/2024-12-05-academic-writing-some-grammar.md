@@ -45,3 +45,17 @@ a subject. Simply put, use `that+verb` to qualify an action.
 `for+verb` describes a reason or justification for something.
 
 *Ex: HE is known for singing beautifully*
+
+## that Vs. which
+
+`that` should be used for restrictive clauses. A restrictive clause is
+something that limits the meaning of a noun.
+
+*Ex: The song that you performed right before intermission is my
+favorite.*
+
+`which` should be used for non-restrictive clauses. A non-restrictive
+clause simply supplies additional information to the noun.
+
+*Ex: These pairs of pants, which no longer fit me, should be given
+away.*
