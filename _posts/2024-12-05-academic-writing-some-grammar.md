@@ -16,7 +16,7 @@ output:
 csl: citations.csl
 ---
 
-## Some grammar for dummies (like me)
+# Some grammar for dummies (like me)
 
 I have learnt from my experience of reading (too few than I am supposed
 to) papers, that the secret to good writing is to expand your cache of
@@ -24,7 +24,7 @@ verbs. Not to mention the correct usage of prepositions. (I can never
 tell if I should write secret *to* good writing or secret *for* good
 writing.)
 
-### that+verb Vs. verb-ing
+## that+verb Vs. verb-ing
 
 `that+verb` should be used while introducing a new subject or before a
 new clause that requires qualifying a specific action being referred to
@@ -36,7 +36,7 @@ a subject. Simply put, use `that+verb` to qualify an action.
 
 *Ex: He enjoys reading*
 
-### to+verb Vs. for+verb+ing
+## to+verb Vs. for+verb+ing
 
 `to+verb` is used to describe why an action was taken.
 
@@ -46,7 +46,7 @@ a subject. Simply put, use `that+verb` to qualify an action.
 
 *Ex: HE is known for singing beautifully*
 
-### that Vs. which
+## that Vs. which
 
 `that` should be used for restrictive clauses. A restrictive clause is
 something that limits the meaning of a noun.
