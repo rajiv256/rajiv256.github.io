@@ -1,0 +1,23 @@
+---
+title: "Solving Differential Equations in Julia"
+permalink: /blog/diffeq-with-julia/
+date: 2024-12-21
+layout: postpage
+bibliography: refs.bib
+link-citations: true
+scholar:
+  locale: en
+output:
+  md_document:
+    variant: gfm
+    preserve_yaml: true
+    dev: "png"
+    df_print: default
+csl: citations.csl
+---
+
+# Solving Differential Equations in Julia
+
+Now that I am reeling from the day I mostly spent loitering around in the living room and kitchen while my Julia's Diffeq solver tried solving my \`\`stiff'' equations (which the impenetrable Julia interpreter was more than happy to let me know), I decided to write a blog post on what knobs to turn to get the work done, preferably quickly.
+
+doie 
