@@ -20,4 +20,4 @@ csl: citations.csl
 
 Now that I am reeling from the day I mostly spent loitering around in the living room and kitchen while my Julia's Diffeq solver tried solving my \`\`stiff'' equations (which the impenetrable Julia interpreter was more than happy to let me know), I decided to write a blog post on what knobs to turn to get the work done, preferably quickly.
 
-doie 
+If for some weird reason, you'd like to read the official documentation instead of my uninspired rant, here you go: 
