@@ -54,11 +54,11 @@ A topological complex could be constructed by glueing the similarly labeled edge
 
 A cylinder can be constructed by glueing one set of opposite edges together.
 
-![](images/clipboard-3726792012.png)
+![Figure 1](images/clipboard-3726792012.png)
 
 A torus can be constructed by gluing both the opposite edges of a rectangle.
 
-![](images/clipboard-2784638289.png)
+![Figure 2](images/clipboard-2784638289.png)
 
 A disk with a zipper, i.e., both the semicircles having the same direction, is topologically equivalent to a sphere's surface.
 
@@ -66,7 +66,7 @@ There are ofcourse, many different planar diagrams for any surface.
 
 On the other hand, to represent a mobius strip, the opposite edges to be glued in the rectangle should be pointing in the opposite directions so that one of the edges have to be twisted so as to be glued to the other. The mobius strip however, has only one side, in contrast to the cylinder.
 
-![](images/clipboard-1765628320.png)
+![Figure 3](images/clipboard-1765628320.png)
 
 A *manifold* is a topological space such that every point has a neighborhood topologically equivalent to a $n-$ dimensional open disk with center $\mathbf{x}$ and radius $r$. A two-dimensional manifold is often called a surface.
 
@@ -76,7 +76,7 @@ In classifying the surfaces, the ability to "enclose a cavity" will turn out to 
 
 Removing two discs from two tori and gluing them together to obtain a 2-handled torus. Notice that the planar polygon for an orientable surface is a $4g$ sided polygon, given that $g$ is the genus.
 
-![](images/clipboard-1892683657.png)
+![Figure 4](images/clipboard-1892683657.png)
 
 While it might seem odd that for a homeomorphism, cutting is not allowed, any cut can be repaired by gluing things back just the way they were.
 
@@ -94,7 +94,7 @@ A surface is connected iff a triangulation can be re-arranged in the order $T_1,
 
 A string of edges that occur twice in exactly the same order, taking into account the directions of the edges, we can relabel to consider the string as a single edge.
 
-![](images/clipboard-588233091.png)
+![Figure 5](images/clipboard-588233091.png)
 
 Note that the edges can occur in two forms: *opposing edges* or *twisted pairs*.
 
@@ -108,7 +108,7 @@ Adjacent opposing pairs can be eliminated by foldiing them in and giving them ed
 
 A twisted pair of edges labeled $a$ may be made adjacent by cutting along the dotted line and regluing along the original edge $a$.
 
-![](images/clipboard-590326423.png)
+![Figure 6](images/clipboard-590326423.png)
 
 **Step 6: Collecting pairs of opposing pairs**
 

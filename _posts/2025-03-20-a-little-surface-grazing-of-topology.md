@@ -87,12 +87,18 @@ example, for glueing, both the edges should be in the same direction.
 A cylinder can be constructed by glueing one set of opposite edges
 together.
 
-![](images/clipboard-3726792012.png)
+<figure>
+<img src="images/clipboard-3726792012.png" alt="Figure 1" />
+<figcaption aria-hidden="true">Figure 1</figcaption>
+</figure>
 
 A torus can be constructed by gluing both the opposite edges of a
 rectangle.
 
-![](images/clipboard-2784638289.png)
+<figure>
+<img src="images/clipboard-2784638289.png" alt="Figure 2" />
+<figcaption aria-hidden="true">Figure 2</figcaption>
+</figure>
 
 A disk with a zipper, i.e., both the semicircles having the same
 direction, is topologically equivalent to a sphere’s surface.
@@ -105,7 +111,10 @@ that one of the edges have to be twisted so as to be glued to the other.
 The mobius strip however, has only one side, in contrast to the
 cylinder.
 
-![](images/clipboard-1765628320.png)
+<figure>
+<img src="images/clipboard-1765628320.png" alt="Figure 3" />
+<figcaption aria-hidden="true">Figure 3</figcaption>
+</figure>
 
 A *manifold* is a topological space such that every point has a
 neighborhood topologically equivalent to a $n-$ dimensional open disk
@@ -121,7 +130,10 @@ Removing two discs from two tori and gluing them together to obtain a
 2-handled torus. Notice that the planar polygon for an orientable
 surface is a $4g$ sided polygon, given that $g$ is the genus.
 
-![](images/clipboard-1892683657.png)
+<figure>
+<img src="images/clipboard-1892683657.png" alt="Figure 4" />
+<figcaption aria-hidden="true">Figure 4</figcaption>
+</figure>
 
 While it might seem odd that for a homeomorphism, cutting is not
 allowed, any cut can be repaired by gluing things back just the way they
@@ -151,7 +163,10 @@ A string of edges that occur twice in exactly the same order, taking
 into account the directions of the edges, we can relabel to consider the
 string as a single edge.
 
-![](images/clipboard-588233091.png)
+<figure>
+<img src="images/clipboard-588233091.png" alt="Figure 5" />
+<figcaption aria-hidden="true">Figure 5</figcaption>
+</figure>
 
 Note that the edges can occur in two forms: *opposing edges* or *twisted
 pairs*.
@@ -168,7 +183,10 @@ them edges together.
 A twisted pair of edges labeled $a$ may be made adjacent by cutting
 along the dotted line and regluing along the original edge $a$.
 
-![](images/clipboard-590326423.png)
+<figure>
+<img src="images/clipboard-590326423.png" alt="Figure 6" />
+<figcaption aria-hidden="true">Figure 6</figcaption>
+</figure>
 
 **Step 6: Collecting pairs of opposing pairs**
 
