@@ -87,10 +87,7 @@ example, for glueing, both the edges should be in the same direction.
 A cylinder can be constructed by glueing one set of opposite edges
 together.
 
-<figure>
-<img src="images/clipboard-3726792012.png" alt="Figure 1" />
-<figcaption aria-hidden="true">Figure 1</figcaption>
-</figure>
+[![Figure 1](images/clipboard-3726792012.png)](Figure%201)
 
 A torus can be constructed by gluing both the opposite edges of a
 rectangle.

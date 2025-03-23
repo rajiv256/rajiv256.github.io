@@ -54,7 +54,7 @@ A topological complex could be constructed by glueing the similarly labeled edge
 
 A cylinder can be constructed by glueing one set of opposite edges together.
 
-![Figure 1](images/clipboard-3726792012.png)
+[![Figure 1](images/clipboard-3726792012.png)](Figure%201)
 
 A torus can be constructed by gluing both the opposite edges of a rectangle.
 
