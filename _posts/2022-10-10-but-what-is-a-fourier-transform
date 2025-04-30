@@ -1,1 +1,21 @@
+---
+date: 2017-06-01
+permalink: /notes/but-what-is-a-fourier-transform
+layout: postpage
+bibliography: refs.bib
+link-citations: true
+scholar:
+  locale: en
+csl: citations.csl
+---
 
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="refresh" content="0; url=path/to/your-file.pdf">
+    <title>Redirecting to PDF...</title>
+  </head>
+  <body>
+    If you are not redirected automatically, <a href="/assets/files/Fourier_Notes.pdf">click here</a>.
+  </body>
+</html>
