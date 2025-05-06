@@ -1,13 +1,5 @@
 main:
 
-  - title: Neural CRNs: A Natural Implementation of Learning in Chemical Reaction Networks
-    authors: Rajiv Teja Nagipogu* and John H. Reif
-    journal: ACS Synthetic Biology (In Revision)
-    conference: ACS Synthetic Biology (In Revision)
-    code: https://github.com/rajiv256/NeuralCRNGen
-    pdf: https://arxiv.org/pdf/2409.00034
-    image: ./assets/img/shadow-cancellation.jpg
-
   - title: Leak-resilient enzyme-free nucleic acid dynamical systems through shadow cancellation
     authors: Rajiv Teja Nagipogu* and John H. Reif
     journal: Royal Society Interface
