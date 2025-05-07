@@ -665,18 +665,24 @@ body::before {
   --body-font: 'Libre Baskerville', Georgia, serif;
 }
 
-/* Earthly color palette */
+/* Refined three-color palette */
 :root {
-  --primary-text: #3e3e2c;      /* Deep olive for main text */
-  --secondary-text: #5c5a4b;    /* Muted sage for secondary text */
-  --accent-color: #6b7d4e;      /* Forest green for accents and links */
-  --accent-hover: #566040;      /* Darker moss for hover states */
-  --background: #fcfbf7;        /* Warm ivory background */
-  --secondary-bg: #f4f1e9;      /* Light sand for secondary backgrounds */
-  --border-color: #e4e0d6;      /* Soft taupe border color */
-  --heading-color: #3c4020;     /* Deep forest for headings */
-  --blockquote-bg: #f0eee4;     /* Light clay background for blockquotes */
-  --code-bg: #f5f2e9;           /* Pale sand background for code */
+  --elegant-blue: #3a5a7d;      /* Elegant blue */
+  --soft-black: #1e2329;        /* Soft black */
+  --jaded-pink: #c6a4a4;        /* Jaded/dusty pink */
+  
+  /* Applied colors */
+  --primary-text: var(--soft-black);    /* Main text in soft black */
+  --secondary-text: #4a5260;            /* Slightly lighter than soft black */
+  --accent-color: var(--elegant-blue);  /* Accent in elegant blue */
+  --accent-hover: #2c4561;              /* Darker blue for hover states */
+  --background: #ffffff;                /* Clean white background */
+  --secondary-bg: #f8f9fa;              /* Very light gray for secondary backgrounds */
+  --border-color: #e8e8e8;              /* Light border color */
+  --heading-color: var(--soft-black);   /* Headings in soft black */
+  --blockquote-bg: #f5f7fa;             /* Very light blue background for blockquotes */
+  --code-bg: #f6f6f6;                   /* Light background for code */
+  --highlight-color: var(--jaded-pink); /* Jaded pink for highlights and accents */
 }
 
 /* Base styles */
@@ -732,7 +738,7 @@ a:hover, a:focus {
 
 /* Blockquotes */
 blockquote {
-  border-left: 4px solid var(--accent-color);
+  border-left: 4px solid var(--jaded-pink);
   margin-left: 0;
   padding-left: 1em;
   background-color: var(--blockquote-bg);
@@ -811,6 +817,17 @@ footer {
 
 /* Selection styling */
 ::selection {
-  background-color: var(--accent-color);
+  background-color: var(--jaded-pink);
   color: white;
+}
+
+/* Add some jaded pink accents */
+h1::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: var(--jaded-pink);
+  margin-top: 0.3em;
+  margin-bottom: 0.5em;
 }
