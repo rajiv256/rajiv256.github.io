@@ -654,8 +654,16 @@ body::before {
   /* Remove default margin, add top margin */
 }
 
-/* Import CMU Sans Serif font */
+/* Import elegant fonts */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
 @import url('https://cdn.jsdelivr.net/gh/dreampulse/computer-modern-web-font@1.0.0/font/Sans/cmunss.css');
+
+/* Font variables */
+:root {
+  --heading-font: 'Montserrat', 'CMU Sans Serif', sans-serif;
+  --body-font: 'Libre Baskerville', Georgia, serif;
+}
 
 /* Earthly color palette */
 :root {
@@ -671,10 +679,9 @@ body::before {
   --code-bg: #f5f2e9;           /* Pale sand background for code */
 }
 
-
 /* Base styles */
 body {
-  font-family: 'CMU Sans Serif', sans-serif;
+  font-family: var(--body-font);
   color: var(--primary-text);
   background-color: var(--background);
   line-height: 1.6;
@@ -684,12 +691,13 @@ body {
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'CMU Sans Serif', sans-serif;
+  font-family: var(--heading-font);
   color: var(--heading-color);
   margin-top: 1.5em;
   margin-bottom: 0.5em;
   font-weight: 600;
   line-height: 1.25;
+  letter-spacing: -0.01em;
 }
 
 h1 {
@@ -706,7 +714,7 @@ h3 {
 
 /* Paragraphs */
 p {
-  font-family: 'CMU Sans Serif', sans-serif;
+  font-family: var(--body-font);
   margin-bottom: 1.25em;
 }
 
