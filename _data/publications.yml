@@ -1,12 +1,19 @@
 main:
 
-  - title: Leak-resilient enzyme-free nucleic acid dynamical systems through shadow cancellation
+  - title: Neural CRNs - A Natural Implementation of Learning in Chemical Reaction Networks
     authors: Rajiv Teja Nagipogu* and John H. Reif
-    journal: Royal Society Interface
-    conference: Journal of the Royal Society Interface
-    code: https://github.com/Reif-Group/shadow-cancellation
-    pdf: https://doi.org/10.1098/rsif.2024.0053
-    image: ./assets/img/shadow-cancellation.jpg
+    journal: ACS Synthetic Biology (Accepted with Revisions)
+    conference: ACS Synthetic Biology (Accepted with Revisions)
+    code: https://github.com/rajiv256/NeuralCRNGen
+    pdf: https://arxiv.org/abs/2409.00034
+    image: ./assets/img/neuralcrns.png
+    
+  - title: Leak-resilient Enzyme-free Nucleic Acid Dynamical Systems
+    authors: Rajiv Teja Nagipogu* and John H. Reif
+    journal: Journal of Royal Society Interface
+    conference: Journal of Royal Society Interface
+    pdf: https://royalsocietypublishing.org/doi/10.1098/rsif.2024.0053
+    image: ./assets/img/shadow-cancellation.jpg 
 
   - title: A survey on molecular-scale learning systems with relevance to DNA computing
     authors: Rajiv Teja Nagipogu*, Dan Fu and John H. Reif
