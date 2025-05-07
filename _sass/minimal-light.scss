@@ -655,14 +655,16 @@ body::before {
 }
 
 /* Import elegant fonts */
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
 @import url('https://cdn.jsdelivr.net/gh/dreampulse/computer-modern-web-font@1.0.0/font/Sans/cmunss.css');
 
 /* Font variables */
 :root {
-  --heading-font: 'Montserrat', 'CMU Sans Serif', sans-serif;
-  --body-font: 'Libre Baskerville', Georgia, serif;
+  --heading-font: 'Playfair Display', 'Times New Roman', serif;
+  --body-font: 'Spectral', Georgia, serif;
+  --alternate-font: 'Cormorant Garamond', 'CMU Sans Serif', serif;
 }
 
 /* Refined three-color palette */
@@ -701,9 +703,25 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--heading-color);
   margin-top: 1.5em;
   margin-bottom: 0.5em;
-  font-weight: 600;
-  line-height: 1.25;
+  font-weight: 500;
+  line-height: 1.2;
   letter-spacing: -0.01em;
+}
+
+h1 {
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 1.9rem;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 1.6rem;
+  font-style: italic;
+  font-weight: 400;
 }
 
 h1 {
@@ -742,9 +760,13 @@ blockquote {
   margin-left: 0;
   padding-left: 1em;
   background-color: var(--blockquote-bg);
-  padding: 1em;
+  padding: 1.2em 1.5em;
+  font-family: var(--alternate-font);
   font-style: italic;
+  font-weight: 400;
+  font-size: 1.05em;
   color: var(--secondary-text);
+  line-height: 1.5;
 }
 
 /* Code */
