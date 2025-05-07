@@ -657,19 +657,20 @@ body::before {
 /* Import CMU Sans Serif font */
 @import url('https://cdn.jsdelivr.net/gh/dreampulse/computer-modern-web-font@1.0.0/font/Sans/cmunss.css');
 
-/* Elegant color palette */
+/* Earthly color palette */
 :root {
-  --primary-text: #2d3748;      /* Dark slate for main text */
-  --secondary-text: #4a5568;    /* Medium slate for secondary text */
-  --accent-color: #5a67d8;      /* Indigo for accents and links */
-  --accent-hover: #4c51bf;      /* Darker indigo for hover states */
-  --background: #ffffff;        /* Clean white background */
-  --secondary-bg: #f7fafc;      /* Light gray for secondary backgrounds */
-  --border-color: #e2e8f0;      /* Light border color */
-  --heading-color: #1a202c;     /* Darker color for headings */
-  --blockquote-bg: #edf2f7;     /* Light background for blockquotes */
-  --code-bg: #f1f5f9;           /* Light background for code */
+  --primary-text: #3e3e2c;      /* Deep olive for main text */
+  --secondary-text: #5c5a4b;    /* Muted sage for secondary text */
+  --accent-color: #6b7d4e;      /* Forest green for accents and links */
+  --accent-hover: #566040;      /* Darker moss for hover states */
+  --background: #fcfbf7;        /* Warm ivory background */
+  --secondary-bg: #f4f1e9;      /* Light sand for secondary backgrounds */
+  --border-color: #e4e0d6;      /* Soft taupe border color */
+  --heading-color: #3c4020;     /* Deep forest for headings */
+  --blockquote-bg: #f0eee4;     /* Light clay background for blockquotes */
+  --code-bg: #f5f2e9;           /* Pale sand background for code */
 }
+
 
 /* Base styles */
 body {
