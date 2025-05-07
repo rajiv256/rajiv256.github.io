@@ -653,3 +653,33 @@ body::before {
   margin: 10px 0 0 0;
   /* Remove default margin, add top margin */
 }
+
+/* Changing the blog font...from claude.*/
+/* First, import CMU Sans font */
+@import url('https://cdn.jsdelivr.net/gh/dreampulse/computer-modern-web-font@1.0.0/font/Serif/cmunrm.css');
+@import url('https://cdn.jsdelivr.net/gh/dreampulse/computer-modern-web-font@1.0.0/font/Sans/cmunss.css');
+
+/* Apply CMU Sans to body and all elements */
+body {
+  font-family: 'CMU Sans Serif', sans-serif;
+}
+
+/* Apply to headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'CMU Sans Serif', sans-serif;
+}
+
+/* Apply to paragraphs */
+p {
+  font-family: 'CMU Sans Serif', sans-serif;
+}
+
+/* Apply to links */
+a {
+  font-family: 'CMU Sans Serif', sans-serif;
+}
+
+/* Apply to code blocks if you want */
+code, pre {
+  font-family: monospace; /* Keeping code in monospace */
+}
