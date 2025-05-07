@@ -654,30 +654,154 @@ body::before {
   /* Remove default margin, add top margin */
 }
 
-/* First, import CMU Sans Serif font */
+/* Import CMU Sans Serif font */
 @import url('https://cdn.jsdelivr.net/gh/dreampulse/computer-modern-web-font@1.0.0/font/Sans/cmunss.css');
 
-/* Apply CMU Sans Serif to body and all elements */
+/* Elegant color palette */
+:root {
+  --primary-text: #2d3748;      /* Dark slate for main text */
+  --secondary-text: #4a5568;    /* Medium slate for secondary text */
+  --accent-color: #5a67d8;      /* Indigo for accents and links */
+  --accent-hover: #4c51bf;      /* Darker indigo for hover states */
+  --background: #ffffff;        /* Clean white background */
+  --secondary-bg: #f7fafc;      /* Light gray for secondary backgrounds */
+  --border-color: #e2e8f0;      /* Light border color */
+  --heading-color: #1a202c;     /* Darker color for headings */
+  --blockquote-bg: #edf2f7;     /* Light background for blockquotes */
+  --code-bg: #f1f5f9;           /* Light background for code */
+}
+
+/* Base styles */
 body {
   font-family: 'CMU Sans Serif', sans-serif;
+  color: var(--primary-text);
+  background-color: var(--background);
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
 }
 
-/* Apply to headings */
+/* Headings */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'CMU Sans Serif', sans-serif;
+  color: var(--heading-color);
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  font-weight: 600;
+  line-height: 1.25;
 }
 
-/* Apply to paragraphs */
+h1 {
+  font-size: 2.25rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+/* Paragraphs */
 p {
   font-family: 'CMU Sans Serif', sans-serif;
+  margin-bottom: 1.25em;
 }
 
-/* Apply to links */
+/* Links */
 a {
-  font-family: 'CMU Sans Serif', sans-serif;
+  color: var(--accent-color);
+  text-decoration: none;
+  transition: color 0.2s ease;
 }
 
-/* Apply to code blocks if you want */
+a:hover, a:focus {
+  color: var(--accent-hover);
+  text-decoration: underline;
+}
+
+/* Blockquotes */
+blockquote {
+  border-left: 4px solid var(--accent-color);
+  margin-left: 0;
+  padding-left: 1em;
+  background-color: var(--blockquote-bg);
+  padding: 1em;
+  font-style: italic;
+  color: var(--secondary-text);
+}
+
+/* Code */
 code, pre {
-  font-family: monospace; /* Keeping code in monospace */
+  font-family: monospace;
+  background-color: var(--code-bg);
+  border-radius: 3px;
+}
+
+code {
+  padding: 0.2em 0.4em;
+}
+
+pre {
+  padding: 1em;
+  overflow-x: auto;
+}
+
+/* Table styling */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+th, td {
+  border: 1px solid var(--border-color);
+  padding: 0.5em;
+}
+
+th {
+  background-color: var(--secondary-bg);
+}
+
+/* Optional: Add a subtle shadow to images */
+img {
+  max-width: 100%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 1em 0;
+}
+
+/* Container for blog content */
+.container, main, .content {
+  max-width: 42rem;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Navigation styling if applicable */
+nav {
+  background-color: var(--secondary-bg);
+  border-bottom: 1px solid var(--border-color);
+  padding: 1rem 0;
+}
+
+nav a {
+  margin: 0 1rem;
+  font-weight: 500;
+}
+
+/* Footer styling */
+footer {
+  margin-top: 3rem;
+  padding: 1.5rem 0;
+  text-align: center;
+  color: var(--secondary-text);
+  border-top: 1px solid var(--border-color);
+  background-color: var(--secondary-bg);
+}
+
+/* Selection styling */
+::selection {
+  background-color: var(--accent-color);
+  color: white;
 }
