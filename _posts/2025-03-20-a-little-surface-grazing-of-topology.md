@@ -173,7 +173,13 @@ pairs*.
 Adjacent opposing pairs can be eliminated by foldiing them in and giving
 them edges together.
 
-**Step 4: Eliminate all but one vertext**
+<figure>
+<img src="images/Screenshot%202025-03-26%20at%201.02.50%20PM.png"
+alt="opposing pairs." />
+<figcaption aria-hidden="true">opposing pairs.</figcaption>
+</figure>
+
+**Step 4: Eliminate all but one vertex**
 
 **Step 5: Collecting twisted pairs**
 
@@ -189,3 +195,75 @@ along the dotted line and regluing along the original edge $a$.
 
 If steps 1 through 5 have been performed, then any opposing pairs must
 occur in pairs.
+
+## Chapter 3: The Euler Characteristic
+
+As the author quotes, ’’the obviousness of a fact never stopped
+mathematicians from proving it”, this chapter focuses on showing how the
+sphere, sum of tori, and connected sums of projective planes, are indeed
+really different types shapes.
+
+Of course, the surface can be classified by creating a mind meld of
+cutting and pasting the surface until it is identifiable, or, perhaps,
+cutting it open to form a complex, triangulating the complex, and going
+through the process described above, to obtain an identifiable planar
+diagram. The first method is, at best, unreliable, while the second
+method is tedious.
+
+Isn’t it better if we can perhaps come up with a characteristic of the
+surface that can indisputably differentiate between two surfaces. In
+this chapter, a simple topological invariant is introduced for exactly
+this purpose: *the euler characteristic*. This is the first step in the
+algebraization of topology—finding something computable to describe the
+shape of a space.
+
+The information carried by the Euler’s characteristic regarding the
+surface is simply a number, but easy to compute. If one needs more
+information regarding the surface, homology theory, although difficult
+to compute, offers more explicit information regarding the shape of a
+space.
+
+A *graph*, $\Gamma$, is a connected 1-complex.
+
+*Reminder:* In topology, a 1-complex (also known as a 1-dimensional
+complex or a graph) is a topological space formed by a set of points
+(0-cells or vertices) and line segments (1-cells or edges) connected by
+those points, forming a fundamental building block for understanding
+higher-dimensional spaces.
+
+A *tree* is a graph with no cycles.
+
+For any graph $\Gamma$, $\chi(\Gamma) = v - e$ is the euler
+characteristic of $\Gamma$
+
+Let $T$ be a tree. Then, $\chi(T)$ = 1.
+
+Let $\Gamma$ be a graph with $n$ distinct cycles. Then,
+$\chi(\Gamma) = 1 - n$.
+
+> Note that adding a vertex in the middle of an edge does not change hte
+> euler characteristic.
+
+### The euler characteristic of a sphere
+
+First, we study how much information can be gotten from the euler
+characteristic and then establish that it is a topological invariant.
+
+**(Def)** Let $K$ be a complex. The euler characteristic of $K$ is
+$\chi(K) = \#(0-cells) - \#(1-cells) + \#(2-cells) - \#(3-cells) \pm \cdots$
+
+For 2-complexes, let $f = \#\{faces\}$, $e = \#\{edges\}$, and
+$v = \#\{vertices\}$, then the euler characteristic must be written as:
+$\chi(K) = v - e + f$\$.
+
+Example: In a polygon with $n$ sides, the euler characteristic is
+$\chi(K) = n - n + 1 = 1$.
+
+Now for a sphere $\mathbb S^2$ , the planar diagram $K'$ has 1 face, 2
+vertices, and 1 edges, and therefore has an euler characteristic of
+$\chi(K') = 1 - 1 + 2 = 2$
+
+![](images/clipboard-441412718.png)
+
+There are many different complexes that can also represent this square.
+Now is it possible

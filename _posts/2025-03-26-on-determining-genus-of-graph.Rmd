@@ -1,0 +1,98 @@
+---
+title: "Automated Design of Wireframe DNA Origami"
+permalink: /blog/on-determining-the-genus-of-a-graph/
+date: 2025-03-26
+layout: postpage
+bibliography: refs.bib
+link-citations: true
+scholar:
+  locale: en
+output:
+  md_document:
+    variant: gfm
+    preserve_yaml: true   
+    dev: "png"
+    df_print: default
+csl: citations.csl
+---
+
+The long and winding road of thinking about genus of a graph. First
+let's start with the basics.
+
+## Planar graphs
+
+Planar graphs are anything that could be drawn on a plane without its
+edges intersecting with each other except at the vertices.
+
+> Note: While most of these diagrams have straight edges, any continuous
+> curve could be considered as an edge.
+
+**Jordan curve theorem** states that in a closed, continuous,
+non-intersecting curve $C$, any continuous curve drawn between an
+interior point $u$ and an exterior point $v$ must intersect $C$ in some
+point. *This theorem is fundamental to understand planarity*.
+
+A closed, continuous, non-self-intersecting curve $C$ is called a
+**Jordan curve**.
+
+Let $G$ be any graph and $\psi$ be a projection of the graph into a
+planar graph, with $G^\psi$ representing the projected graph. Let $C$ be
+any cycle in $G$. Then $\psi$ maps $C$ to $C^\psi$, a Jordan curve in
+the plane.
+
+I am reading the paper "On determining the genus of a graph" and,
+frankly, I think I read better when I keep my brain juices active by
+simultaneously blogging about it. So that my demons are not shouting
+down my better angels, if you will.
+
+This paper tries to find a graph embedding of a graph $G$ on a surface
+of genus $g$, if such an embedding exists.
+
+Usually, the topological embedding of a graph $G$ onto a surface is
+purely a combinatorial problem, where on some 2-dimensional orientable
+surface, the embedding determines the cyclic ordering of the edges at
+each vertex determines a class of embeddings of $G$.
+
+The goal here is to remove the idea of a continuous surface and instead
+obtain a discrete representation of the surface.
+
+Due to the unorthodox nature of the paper, the graph, vertex, and edge
+are defined slightly differently. For instance, the *edges* of the graph
+are defined as a finite set of points, containing atleast one additional
+point other than the extremities. The extremities are called *vertices*.
+
+**(Defn)** **Graph**. A graph $G$ is a triple $(P, V, R)$ where
+
+-   $P$ is a finite set whose elements are called points.
+
+-   $V$ is a subset of $P$ whose elements are called vertices.
+
+-   $R$ is an antireflexive and symmetric relation on $P$ such that
+
+-   <div>
+
+    -   (3.1) no two vertices are related.
+
+    -   (3.2) points in $P-V$ are related to atmost two other points.
+
+    </div>
+
+This essentially means that the edges are defined as a finite set of
+points rather than as a contiguous line. Note that the $R$ is an
+"adjacent point" relation, in layman terms.
+
+Let $R'$ be a restriction of $R\to P-V$. The reflexive and trasitive
+closure of $R'$ is an equivalence relation on $P-V$. It's equivalence
+classes are called the [open edges]{.underline} of $G$. The open edges
+along with the extremities are called the [closed edges]{.underline} of
+$G$.
+
+The pair $(P,R)$ denotes a simplical graph. A graph $G$ with property
+that $\forall p\in P-V$ is related to exactly two other points will be
+called a [closed graph]{.underline}, and an [open graph]{.underline}
+vice versa.
+
+**(Defn) Embedding of graphs**. An [embedding]{.underline} $I$ of a
+graph $G$ is simply a cyclic orientation of the edges associated with
+each vertextof $G$. A pair $(G, I)$ consisting of a graph and embedding
+will be called an [embedded graph]{.underline}, often denoted $G_I$.

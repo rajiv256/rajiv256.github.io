@@ -1,0 +1,23 @@
+---
+title: "Intrusive Questions and Probable Answers"
+permalink: /blog/rand-questions/
+date: 2025-04-23
+layout: postpage
+bibliography: refs.bib
+link-citations: true
+scholar:
+  locale: en
+output:
+  md_document:
+    variant: gfm
+    preserve_yaml: true
+    dev: "png"
+    df_print: default
+csl: citations.csl
+---
+
+# Intrusive questions and probable answers
+
+### 1. It's raining and I am standing under a tree. I have waterproof shoes and my body is not in contact with the ground. However, my hand is resting against the tree. Suddenly, a thunder struck the tree. Say the reverberation from the thunder or the fire won't affect me? Would the electricity from the thunder affect me? You can assume that the insulation of my shoes is very high that it surpasses the permittivity of air.
+
+#### 2. Should tech companies acquire other companies or should they innovate? How will the world be different if facebook didn't acquire whatsapp? Or with Twitter...(hint Bluesky)?
