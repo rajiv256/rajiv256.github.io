@@ -654,12 +654,10 @@ body::before {
   /* Remove default margin, add top margin */
 }
 
-/* Changing the blog font...from claude.*/
-/* First, import CMU Sans font */
-@import url('https://cdn.jsdelivr.net/gh/dreampulse/computer-modern-web-font@1.0.0/font/Serif/cmunrm.css');
+/* First, import CMU Sans Serif font */
 @import url('https://cdn.jsdelivr.net/gh/dreampulse/computer-modern-web-font@1.0.0/font/Sans/cmunss.css');
 
-/* Apply CMU Sans to body and all elements */
+/* Apply CMU Sans Serif to body and all elements */
 body {
   font-family: 'CMU Sans Serif', sans-serif;
 }
