@@ -22,10 +22,10 @@ programs in Computer Science, I highly recommend reading
 
 ## Research Interests
 
--   **Biomolecular Computing**: What kind of information processing
+-   Biomolecular Computing: What kind of information processing
     capabilities does a bag of reacting biomolecules (e.g., dna, rna)
     possess?
--   **Biochemical Learning**: Can we make these systems to be adaptive
+-   Biochemical Learning: Can we make these systems to be adaptive
     and operate autonomously?
 
 ## Timeline
@@ -47,5 +47,3 @@ programs in Computer Science, I highly recommend reading
     department at IIT Madras
 -   **[Apr 2017]**: Submitted my undergraduate thesis on [A Unikernel
     Webserver in Rust](https://rajiv256.github.io/projects/ouros/)
-
-{% include_relative _includes/publications.md %}
