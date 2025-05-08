@@ -48,4 +48,4 @@ programs in Computer Science, I highly recommend reading
 -   **[Apr 2017]**: Submitted my undergraduate thesis on [A Unikernel
     Webserver in Rust](https://rajiv256.github.io/projects/ouros/)
 
-{% include_relative \_includes/publications.md %}
+{% include_relative _includes/publications.md %}
