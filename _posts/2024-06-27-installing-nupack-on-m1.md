@@ -14,7 +14,6 @@ output:
     dev: "png"
     df_print: default
 csl: citations.csl
-tags: dna-computing
 ---
 
 # Installing NUPACK on M1 Mac \>.\<
