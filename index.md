@@ -18,8 +18,7 @@ occasionally write poems and stories
 
 **PSA:** If you are a prospective graduate student applying for PhD
 programs in Computer Science, I highly recommend reading
-"<a href="https://www.cs.cmu.edu/~harchol/gradschooltalk.pdf"> The
-Gradschool Talk by Prof. Mor Harchol-Balter</a>".
+"<a href="https://www.cs.cmu.edu/~harchol/gradschooltalk.pdf">The Gradschool Talk by Prof. Mor Harchol-Balter</a>".
 
 ## Research Interests
 
