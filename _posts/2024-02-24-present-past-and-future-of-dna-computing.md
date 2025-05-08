@@ -32,19 +32,19 @@ paper till the end. So, here goes.
 
 ## Seesaw gates
 
-Qian and Winfree ([2011](#ref-Qian2011-bx)) introduced the design of
-seesaw gates in the context of boolean logic computation. Each of these
-gates contain a base strand containing a “recognition” domain flanked on
-either sides by two toeholds. One of these toeholds is free, whereas the
-other is occupied by an incumbent signal strand. Seesaw gates enable
-catalytic signal transduction. The addition of the input displaces this
-outgoing strand, occupies the recognition domain, and opens up the
-previously bound toehold. A fuel strand then occupies this free toehold
-displacing the input back into its single-stranded form. Here, it is
-worth noting that each signal strand is designed such that it has a
-toehold in the middle, surrounding on the either side by recognition
-domains. Each of these recognition domains represent the gate they are
-returning from and the gate they are impinging upon, respectively.
+\[[1](#ref-Qian2011-bx)\] introduced the design of seesaw gates in the
+context of boolean logic computation. Each of these gates contain a base
+strand containing a “recognition” domain flanked on either sides by two
+toeholds. One of these toeholds is free, whereas the other is occupied
+by an incumbent signal strand. Seesaw gates enable catalytic signal
+transduction. The addition of the input displaces this outgoing strand,
+occupies the recognition domain, and opens up the previously bound
+toehold. A fuel strand then occupies this free toehold displacing the
+input back into its single-stranded form. Here, it is worth noting that
+each signal strand is designed such that it has a toehold in the middle,
+surrounding on the either side by recognition domains. Each of these
+recognition domains represent the gate they are returning from and the
+gate they are impinging upon, respectively.
 
 [![Figure 1: Seesaw gate
 architecture](images/seesaw_gate.png)](Figure%201)
@@ -72,10 +72,9 @@ produced.
 - Can we somehow forego the fuel complexes and figure out a way to
   implement automatic buffering?
 - How can we speed up computation?
-- Also check: Qian and Winfree ([2011](#ref-Qian2011-bx)), Garg *et al.*
-  ([2019](#ref-garg2019hairpins)), Reif ([2011](#ref-reif2011scaling)),
-  Seelig *et al.* ([2006](#ref-Seelig2006-xr)), Seelig, Yurke and
-  Winfree ([2006](#ref-seelig2006catalyzed))
+- Also check: \[[1](#ref-Qian2011-bx)\], \[[2](#ref-garg2019hairpins)\],
+  \[[3](#ref-reif2011scaling)\], \[[4](#ref-Seelig2006-xr)\],
+  \[[5](#ref-seelig2006catalyzed)\]
 
 ## Reaction-Diffusion patterns in DSD-based CRNs
 
@@ -162,42 +161,50 @@ Society* 128 (37): 12211–20.
 
 </div>
 
-<div id="ref-garg2019hairpins" class="csl-entry">
+<div id="ref-Qian2011-bx" class="csl-entry">
 
-Garg, S. *et al.* (2019) ‘Nucleic acid hairpins: A robust and powerful
-motif for molecular devices’, in Zhang, Y. and Xu, B. (eds) *Invited
-chapter, from parallel to emergent computing*. World Scientific.
-doi:[10.1142/9789811201035_0007](https://doi.org/10.1142/9789811201035_0007).
+<span class="csl-left-margin">1.
+</span><span class="csl-right-inline">Qian L, Winfree E. Scaling up
+digital circuit computation with DNA strand displacement cascades.
+Science. 2011 Jun;332(6034):1196–201. </span>
 
 </div>
 
-<div id="ref-Qian2011-bx" class="csl-entry">
+<div id="ref-garg2019hairpins" class="csl-entry">
 
-Qian, L. and Winfree, E. (2011) ‘Scaling up digital circuit computation
-with DNA strand displacement cascades’, *Science*, 332(6034), pp.
-1196–1201.
+<span class="csl-left-margin">2.
+</span><span class="csl-right-inline">Garg S, Bui H, Eshra A, Shah S,
+Reif JH. [Nucleic acid hairpins: A robust and powerful motif for
+molecular devices](https://doi.org/10.1142/9789811201035_0007). In:
+Zhang Y, Xu B, editors. Invited chapter, from parallel to emergent
+computing. World Scientific; 2019. </span>
 
 </div>
 
 <div id="ref-reif2011scaling" class="csl-entry">
 
-Reif, J.H. (2011) ‘<span class="nocase">Scaling up DNA
-computation</span>’, *science*, 332(6034), pp. 1156–1157.
+<span class="csl-left-margin">3.
+</span><span class="csl-right-inline">Reif JH.
+<span class="nocase">Scaling up DNA computation</span>. science.
+2011;332(6034):1156–7. </span>
 
 </div>
 
 <div id="ref-Seelig2006-xr" class="csl-entry">
 
-Seelig, G. *et al.* (2006) ‘Enzyme-free nucleic acid logic circuits’,
-*Science*, 314(5805), pp. 1585–1588.
+<span class="csl-left-margin">4.
+</span><span class="csl-right-inline">Seelig G, Soloveichik D, Zhang DY,
+Winfree E. Enzyme-free nucleic acid logic circuits. Science. 2006
+Dec;314(5805):1585–8. </span>
 
 </div>
 
 <div id="ref-seelig2006catalyzed" class="csl-entry">
 
-Seelig, G., Yurke, B. and Winfree, E. (2006) ‘Catalyzed relaxation of a
-metastable DNA fuel’, *Journal of the American Chemical Society*,
-128(37), pp. 12211–12220.
+<span class="csl-left-margin">5.
+</span><span class="csl-right-inline">Seelig G, Yurke B, Winfree E.
+Catalyzed relaxation of a metastable DNA fuel. Journal of the American
+Chemical Society. 2006;128(37):12211–20. </span>
 
 </div>
 

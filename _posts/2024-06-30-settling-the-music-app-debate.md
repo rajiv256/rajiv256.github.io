@@ -14,7 +14,6 @@ output:
     dev: "png"
     df_print: default
 csl: citations.csl
-tags: music
 ---
 
 # Music app debate
@@ -22,11 +21,11 @@ tags: music
 What is the best music app? Is it Spotify? Is it Apple Music? Is it
 Amazon Music? Or is it YouTube Music (lol)? I often get into this debate
 with my friends. Here, I am gonna provide an Indian perspective. India
-is a musical nation from the very beginning of its origins Popley
-([1921](#ref-popley1921musical)). Music is interspersed in the country’s
+is a musical nation from the very beginning of its origins
+\[[1](#ref-popley1921musical)\]. Music is interspersed in the country’s
 cultural heritage and the insane diversity of the music exemplifies this
-Rowell ([2015](#ref-rowell2015music)). But I diverge. That’s not the
-topic of today! For now the references provided should do!
+\[[2](#ref-rowell2015music)\]. But I diverge. That’s not the topic of
+today! For now the references provided should do!
 
 So, the reason for my detour rant is to emphasize that the diversity of
 Indian music is rich that I have no haughtiness in saying that the
@@ -63,15 +62,17 @@ has Dolby Atmos lol. I am sold! Fin.
 
 <div id="ref-popley1921musical" class="csl-entry">
 
-Popley, H.A. (1921) ‘The musical heritage of india’, *International
-Review of Mission*, 10(2), pp. 223–235.
+<span class="csl-left-margin">1.
+</span><span class="csl-right-inline">Popley HA. The musical heritage of
+india. International Review of Mission. 1921;10(2):223–35. </span>
 
 </div>
 
 <div id="ref-rowell2015music" class="csl-entry">
 
-Rowell, L. (2015) *Music and musical thought in early india*. University
-of Chicago Press.
+<span class="csl-left-margin">2.
+</span><span class="csl-right-inline">Rowell L. Music and musical
+thought in early india. University of Chicago Press; 2015. </span>
 
 </div>
 
