@@ -404,54 +404,7 @@ the CS department at IIT Madras</li>
 <li><strong>[Apr 2017]</strong>: Submitted my undergraduate thesis on <a href="https://rajiv256.github.io/projects/ouros/">A Unikernel Webserver
 in Rust</a></li>
 </ul>
-<h2 id="publications" style="margin: 2px 0px -15px;">
-Publications
-</h2>
-<div class="publications">
-<ol class="bibliography">
-<p>{% for link in site.data.publications.main %}</p>
-<li>
-<div class="pub-row">
-<div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-<pre><code>{% if link.image %} 
-&lt;img src=&quot;{{ link.image }}&quot; class=&quot;teaser img-fluid z-depth-1&quot; style=&quot;width=100;height=40%&quot;&gt;
-{% if link.conference_short %} 
-&lt;abbr class=&quot;badge&quot;&gt;{{ link.conference_short }}&lt;/abbr&gt;
-{% endif %}
-{% endif %}</code></pre>
-</div>
-<div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-<pre><code>  &lt;div class=&quot;title&quot;&gt;&lt;a href=&quot;{{ link.pdf }}&quot;&gt;{{ link.title }}&lt;/a&gt;&lt;/div&gt;
-  &lt;div class=&quot;author&quot;&gt;{{ link.authors }}&lt;/div&gt;
-  &lt;div class=&quot;periodical&quot;&gt;&lt;em&gt;{{ link.conference }}&lt;/em&gt;
-  &lt;/div&gt;
-&lt;div class=&quot;links&quot;&gt;
-  {% if link.pdf %} 
-  &lt;a href=&quot;{{ link.pdf }}&quot; class=&quot;btn btn-sm z-depth-0&quot; role=&quot;button&quot; target=&quot;_blank&quot; style=&quot;font-size:12px;&quot;&gt;PDF&lt;/a&gt;
-  {% endif %}
-  {% if link.code %} 
-  &lt;a href=&quot;{{ link.code }}&quot; class=&quot;btn btn-sm z-depth-0&quot; role=&quot;button&quot; target=&quot;_blank&quot; style=&quot;font-size:12px;&quot;&gt;Code&lt;/a&gt;
-  {% endif %}
-  {% if link.page %} 
-  &lt;a href=&quot;{{ link.page }}&quot; class=&quot;btn btn-sm z-depth-0&quot; role=&quot;button&quot; target=&quot;_blank&quot; style=&quot;font-size:12px;&quot;&gt;Project Page&lt;/a&gt;
-  {% endif %}
-  {% if link.bibtex %} 
-  &lt;a href=&quot;{{ link.bibtex }}&quot; class=&quot;btn btn-sm z-depth-0&quot; role=&quot;button&quot; target=&quot;_blank&quot; style=&quot;font-size:12px;&quot;&gt;BibTex&lt;/a&gt;
-  {% endif %}
-  {% if link.notes %} 
-  &lt;strong&gt; &lt;i style=&quot;color:#e74d3c&quot;&gt;{{ link.notes }}&lt;/i&gt;&lt;/strong&gt;
-  {% endif %}
-  {% if link.others %} 
-  {{ link.others }}
-  {% endif %}
-&lt;/div&gt;</code></pre>
-</div>
-</div>
-</li>
-<p><br></p>
-<p>{% endfor %}</p>
-</ol>
-</div>
+<p>{% include_relative _includes/publications.md %}</p>
 </div>
 
 
