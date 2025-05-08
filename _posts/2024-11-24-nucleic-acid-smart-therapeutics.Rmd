@@ -23,14 +23,19 @@ tags: programming, python
 
 ### Main points
 
--   Nucleic acid therapeutics are third most emerging technology and substrate after small-molecules and antibodies.
+-   Nucleic acid therapeutics are third most emerging technology and
+    substrate after small-molecules and antibodies.
 
 -   Simple, fast, and cost-effective.
 
 -   RNA therapeutics doesn't induce mutagenesis such as DNA does.
 
--   Conditional execution have not been figured out. Most DNA/RNA therapeutics are delivered to their action site. Lipid Nano particles (LNPs) are also a delivery vehicle.
+-   Conditional execution have not been figured out. Most DNA/RNA
+    therapeutics are delivered to their action site. Lipid Nano
+    particles (LNPs) are also a delivery vehicle.
 
--   Alternative strategy is to enhance specificity by incorporating computing into the circuits—triggers as 'input', programming modalities as the 'transducer' and the output as the 'effector'.
+-   Alternative strategy is to enhance specificity by incorporating
+    computing into the circuits—triggers as 'input', programming
+    modalities as the 'transducer' and the output as the 'effector'.
 
 -   
