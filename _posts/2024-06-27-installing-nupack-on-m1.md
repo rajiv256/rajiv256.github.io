@@ -36,8 +36,8 @@ that was labeled “M1”. So, I did eenie-meenie-monie with the
 distributions and picked…just kidding. Like any respectable computer
 scientist would, I picked the latest version.
 
-*The first thing we do, let’s kill all the lawyers Shakespeare
-([2001](#ref-shakespeare2001henry)).* No don’t. The first thing we do is
+*The first thing we do, let’s kill all the lawyers
+\[[1](#ref-shakespeare2001henry)\].* No don’t. The first thing we do is
 download Python 3.8 or higher. Keep in mind two things. (1) The version
 must be 3.8+. (2) Make sure the python used is native. That means no
 virtual environment business. Use the python that’s installed in your
@@ -68,8 +68,9 @@ you don’t succeed, well, it’s your own fault for buying your stupid M1.
 
 <div id="ref-shakespeare2001henry" class="csl-entry">
 
-Shakespeare, W. (2001) *Henry VI.: Part three*. Oxford University Press,
-USA.
+<span class="csl-left-margin">1.
+</span><span class="csl-right-inline">Shakespeare W. Henry VI.: Part
+three. Oxford University Press, USA; 2001. </span>
 
 </div>
 
