@@ -1,8 +1,17 @@
 ---
 layout: homepage
+link-citations: true
+scholar:
+  locale: en
+output:
+  md_document:
+    variant: gfm
+    preserve_yaml: true
+    dev: "png"
+    df_print: default
 ---
 
-## Lil' Intro
+## Lil’ Intro
 
 Good tidings! This is Rajiv, a PhD student in the CompSci department at
 Duke. Here, I work with <a href="https://users.cs.duke.edu/~reif/">Prof.
@@ -18,34 +27,35 @@ occasionally write poems and stories
 
 **PSA:** If you are a prospective graduate student applying for PhD
 programs in Computer Science, I highly recommend reading
-"<a href="https://www.cs.cmu.edu/~harchol/gradschooltalk.pdf">The Gradschool Talk by Prof. Mor Harchol-Balter</a>".
+“<a href="https://www.cs.cmu.edu/~harchol/gradschooltalk.pdf">The
+Gradschool Talk by Prof. Mor Harchol-Balter</a>”.
 
 ## Research Interests
 
--   Biomolecular Computing: What kind of information processing
-    capabilities does a bag of reacting biomolecules (e.g., dna, rna)
-    possess?
--   Biochemical Learning: Can we make these systems to be adaptive
-    and operate autonomously?
+- Biomolecular Computing: What kind of information processing
+  capabilities does a bag of reacting biomolecules (e.g., dna, rna)
+  possess?
+- Biochemical Learning: Can we make these systems to be adaptive and
+  operate autonomously?
 
 ## Timeline
 
--   **[Jun 2024]**: Paper published in the Royal Society Interface
-    journal
-    <a href="https://royalsocietypublishing.org/doi/10.1098/rsif.2024.0053">[Paper]</a>
--   **[Aug 2022]**: Awarded the GPNANO fellowship for the Fall 2022
-    semester
--   **[May 2022]**: Defended the Research Initiation Project proposal
--   **[Aug 2021]**: Joined the Computer Science PhD program at Duke
-    University, Durham NC
--   **[Mar 2020]**: Joined Google Research as a contract employee
-    through Optimum
--   **[Dec 2018]**: Left PayPal and joined Kenome.io
--   **[Aug 2017]**: Joined PayPal
--   **[Oct 2017]**: Paper accepted to MIKE 2017
--   **[Jul 2017]**: Received my undergraduate degree from the CS
-    department at IIT Madras
--   **[Apr 2017]**: Submitted my undergraduate thesis on [A Unikernel
-    Webserver in Rust](https://rajiv256.github.io/projects/ouros/)
+- **\[Jun 2024\]**: Paper published in the Royal Society Interface
+  journal
+  <a href="https://royalsocietypublishing.org/doi/10.1098/rsif.2024.0053">\[Paper\]</a>
+- **\[Aug 2022\]**: Awarded the GPNANO fellowship for the Fall 2022
+  semester
+- **\[May 2022\]**: Defended the Research Initiation Project proposal
+- **\[Aug 2021\]**: Joined the Computer Science PhD program at Duke
+  University, Durham NC
+- **\[Mar 2020\]**: Joined Google Research as a contract employee
+  through Optimum
+- **\[Dec 2018\]**: Left PayPal and joined Kenome.io
+- **\[Aug 2017\]**: Joined PayPal
+- **\[Oct 2017\]**: Paper accepted to MIKE 2017
+- **\[Jul 2017\]**: Received my undergraduate degree from the CS
+  department at IIT Madras
+- **\[Apr 2017\]**: Submitted my undergraduate thesis on [A Unikernel
+  Webserver in Rust](https://rajiv256.github.io/projects/ouros/)
 
-{% include_relative _includes/publications.md %}
+{% include_relative \_includes/publications.md %}
