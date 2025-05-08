@@ -208,6 +208,8 @@ papertitle {
 
     .image.avatar {
       border-radius: 100%;
+      transform: scale(1.5);
+      transform-origin: center;
     }
 
       .image.avatar:before {
