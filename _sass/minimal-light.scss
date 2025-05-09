@@ -696,7 +696,7 @@ body {
   line-height: 1.6;
   margin: 0;
   padding: 0;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
 }
 
@@ -865,4 +865,54 @@ h1::after {
   background-color: var(--jaded-pink);
   margin-top: 0.3em;
   margin-bottom: 0.5em;
+}
+
+/* Responsive design */
+/* Base styles for all devices */
+body {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Small mobile devices (up to 576px) */
+@media (max-width: 576px) {
+  body {
+    font-size: 14px;
+  }
+  
+  h1 {
+    font-size: 1.8rem;
+  }
+  
+  /* Stack columns vertically on mobile */
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Medium devices (tablets, 577px - 768px) */
+@media (min-width: 577px) and (max-width: 768px) {
+  .column {
+    width: 48%;
+    margin-right: 4%;
+  }
+  
+  .column:nth-child(2n) {
+    margin-right: 0;
+  }
+}
+
+/* Large devices (desktops, 769px - 992px) */
+@media (min-width: 769px) and (max-width: 992px) {
+  /* Adjust layout for desktop */
+}
+
+/* Extra large devices (large desktops, monitors, 993px and up) */
+@media (min-width: 993px) {
+  /* Optimize for large screens */
+  .container {
+    max-width: 1400px;
+  }
 }
