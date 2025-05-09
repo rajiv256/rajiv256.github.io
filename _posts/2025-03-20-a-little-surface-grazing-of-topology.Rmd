@@ -160,10 +160,7 @@ pairs*.
 **Step 3: Eliminate adjacent opposing pairs**
 
 Adjacent opposing pairs can be eliminated by foldiing them in and giving
-them edges together.
-
-![opposing
-pairs.](images/Screenshot%202025-03-26%20at%201.02.50%20PM.png)
+them edges together
 
 **Step 4: Eliminate all but one vertex**
 
