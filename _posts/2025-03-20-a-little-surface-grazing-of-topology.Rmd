@@ -88,7 +88,7 @@ example, for glueing, both the edges should be in the same direction.
 A cylinder can be constructed by glueing one set of opposite edges
 together.
 
-[![Figure 1](images/clipboard-3726792012.png)](Figure%201)
+![Figure 1](images/clipboard-3726792012.png)
 
 A torus can be constructed by gluing both the opposite edges of a
 rectangle.
@@ -246,7 +246,7 @@ Now for a sphere $\mathbb S^2$ , the planar diagram $K'$ has 1 face, 2
 vertices, and 1 edges, and therefore has an euler characteristic of
 $\chi(K') = 1 - 1 + 2 = 2$
 
-![](images/clipboard-441412718.png)
+![Figure 4](images/clipboard-441412718.png)
 
 There are many different complexes that can also represent this square.
 Now is it possible to show that any of these complexes have the same

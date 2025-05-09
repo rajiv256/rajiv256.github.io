@@ -87,7 +87,10 @@ example, for glueing, both the edges should be in the same direction.
 A cylinder can be constructed by glueing one set of opposite edges
 together.
 
-[![Figure 1](images/clipboard-3726792012.png)](Figure%201)
+<figure>
+<img src="images/clipboard-3726792012.png" alt="Figure 1" />
+<figcaption aria-hidden="true">Figure 1</figcaption>
+</figure>
 
 A torus can be constructed by gluing both the opposite edges of a
 rectangle.
@@ -241,7 +244,7 @@ Let $T$ be a tree. Then, $\chi(T)$ = 1.
 Let $\Gamma$ be a graph with $n$ distinct cycles. Then,
 $\chi(\Gamma) = 1 - n$.
 
-> Note that adding a vertex in the middle of an edge does not change hte
+> Note that adding a vertex in the middle of an edge does not change the
 > euler characteristic.
 
 ### The euler characteristic of a sphere
@@ -254,7 +257,7 @@ $\chi(K) = \#(0-cells) - \#(1-cells) + \#(2-cells) - \#(3-cells) \pm \cdots$
 
 For 2-complexes, let $f = \#\{faces\}$, $e = \#\{edges\}$, and
 $v = \#\{vertices\}$, then the euler characteristic must be written as:
-$\chi(K) = v - e + f$\$.
+$\chi(K) = v - e + f$.
 
 Example: In a polygon with $n$ sides, the euler characteristic is
 $\chi(K) = n - n + 1 = 1$.
@@ -263,7 +266,64 @@ Now for a sphere $\mathbb S^2$ , the planar diagram $K'$ has 1 face, 2
 vertices, and 1 edges, and therefore has an euler characteristic of
 $\chi(K') = 1 - 1 + 2 = 2$
 
-![](images/clipboard-441412718.png)
+<figure>
+<img src="images/clipboard-441412718.png" alt="Figure 4" />
+<figcaption aria-hidden="true">Figure 4</figcaption>
+</figure>
 
 There are many different complexes that can also represent this square.
-Now is it possible
+Now is it possible to show that any of these complexes have the same
+euler characteristic?
+
+**(Theorem)** Any 2-complex, $K$, such that $|K|$ is topologically
+equivalent to the sphere has a euler characteristic $\chi(K) = 2$.
+
+*Proof*. First, we triangulate the surface into $K'$. The final remains
+at $\chi(K') = 2$. First, we remove a triangle from the surface creating
+a hole on the sphere. This becomes a $\chi - 1$ surface. It however
+remains a 2-complex system. Now, start removing each triangle from the
+surface. There are three cases when the triangle shares, an edge, two
+edges, or one vertex with the boundary of the hold created. In all these
+cases, the $\chi$ remains the same.
+
+Finally, only a single triangular face $\chi(K'') = 1$ remains.
+
+Since $\chi - 1 = 1$, $\chi = 2$.
+
+### The euler characteristic and surfaces
+
+Euler characteristic is usually computed by means of cell decomposition.
+It is surprising that something so easy to compute should be a
+topological invariant.
+
+Here are the ways you can perform triangulation without changing the
+euler characteristic.
+
+- Add an edge between two vertices of a polygon.
+
+- Add a vertex in the interior of the polygon and an edge from this
+  vertex to a boundary vertex of the polygon.
+
+- Add a vertex in the interior of an edge.
+
+Using these, we can try to perform the triangulation of a torus for
+example.
+
+## Chapter 4: Homology
+
+The object of topology is the classification and description of the
+shape of a space up to topological equivalence.
+
+The method described above using the euler characteristic can still be
+arduous and cannot differentiate the orientable or non-orientable nature
+of the surfaces. For example it *fails to differentiate between a torus
+and a klein bottle*, both of which have $\chi = 0$. Specifically, euler
+characteristic remembers to glue the edges together but ignores the
+direction of gluing. Homology respects these directions.
+
+These gluing directions determine for example, that the gluing of
+1-cells of a 2-complex determine whether the 2-cell forms a hollow
+cavity as in the inside of a torus, or not, as in the Klein bottle.
+
+THe algebraization of topology will be a sort of layered invariant,
+called the homology groups, which try to express all this information.
