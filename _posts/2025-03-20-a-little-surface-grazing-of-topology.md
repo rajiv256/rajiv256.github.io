@@ -1,6 +1,6 @@
 ---
 title: "Topology of surfaces, or is saying that redundant?"
-permalink: /blog/a-little-surface-grazing-of-topology/
+permalink: /blog/a-little-surface-grazing-of-topology
 date: 2025-03-21
 layout: postpage
 bibliography: refs.bib
