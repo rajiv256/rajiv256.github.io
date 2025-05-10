@@ -2,33 +2,33 @@ main:
 
   - title: Neural CRNs A Natural Implementation of Learning in Chemical Reaction Networks
     authors: Rajiv Teja Nagipogu* and John H. Reif
-    journal: ACS Synthetic Biology (Accepted with Revisions)
-    conference: ACS Synthetic Biology (Accepted with Revisions)
+    journal: ACS Synthetic Biology, 2025 (Accepted with Revisions)
+    conference: ACS Synthetic Biology, 2025 (Accepted with Revisions)
     code: https://github.com/rajiv256/NeuralCRNGen
     pdf: https://arxiv.org/abs/2409.00034
     image: ./assets/img/neuralcrns.png
     
   - title: Leak-resilient Enzyme-free Nucleic Acid Dynamical Systems
     authors: Rajiv Teja Nagipogu* and John H. Reif
-    journal: Journal of Royal Society Interface
-    conference: Journal of Royal Society Interface
+    journal: Journal of Royal Society Interface, 2024
+    conference: Journal of Royal Society Interface, 2024
     pdf: https://royalsocietypublishing.org/doi/10.1098/rsif.2024.0053
     image: ./assets/img/shadow-cancellation.jpg 
 
   - title: A survey on molecular-scale learning systems with relevance to DNA computing
     authors: Rajiv Teja Nagipogu*, Dan Fu and John H. Reif
-    conference: Nanoscale
+    conference: Nanoscale, 2022
     pdf: https://doi.org/10.1039/D2NR06202J
     image: ./assets/img/survey-molecular-learning.jpeg
 
   - title: (WikiSeeAlso) Suggesting Tangentially Related Concepts (See also links) for Wikipedia Articles
     authors: Sahiti Labhishetty*, Rajiv Teja Nagipogu*, Ayesha Siddiqa and Sutanu Chakraborti
-    conference: Mining Intelligence and Knowledge Exploration
+    conference: Mining Intelligence and Knowledge Exploration, 2017
     pdf: https://link.springer.com/chapter/10.1007/978-3-319-71928-3_27
     notes: equal contribution*
     image: ./assets/img/wikiseealso.png
 
-  - title: (MuRIL) Multilingual Representations for Indian Languages
+  - title: (MuRIL) Multilingual Representations for Indian Languages (2021)
     authors: Simran Khanuja, ..., Rajiv Teja Nagipogu*, Partha Talukdar
     pdf: https://arxiv.org/abs/2103.10730
     notes: team member*
