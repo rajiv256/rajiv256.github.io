@@ -174,7 +174,7 @@ pairs*.
 **Step 3: Eliminate adjacent opposing pairs**
 
 Adjacent opposing pairs can be eliminated by foldiing them in and giving
-them edges together
+them edges together.
 
 **Step 4: Eliminate all but one vertex**
 

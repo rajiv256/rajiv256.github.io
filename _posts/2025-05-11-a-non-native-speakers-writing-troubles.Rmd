@@ -1,0 +1,26 @@
+---
+title: "Writing Troubles of a Non-Native English Speaker"
+permalink: /blog/my-experiences-writing-troubles/
+date: 2025-05-11
+layout: postpage
+bibliography: refs.bib
+link-citations: true
+scholar:
+  locale: en
+output:
+  md_document:
+    variant: gfm
+    preserve_yaml: true
+    dev: "png"
+    df_print: default
+csl: citations.csl
+---
+
+# Writing woes of a non-native speaker/writer
+
+When I am not in a writing mood but in a daydreaming mood, possibly
+menacing over something I cannot control, my writing goes haywire. I
+tend to translate my thoughts in my mother tongue to words in English
+and here are the results. This will just be a list.
+
+-   The considerations to be considered include...
