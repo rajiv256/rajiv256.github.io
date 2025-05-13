@@ -50,8 +50,8 @@ csl: citations.csl
   with open(filename, "w+") as fout:
 
     fout.write(s + '\n')
-    fout.write("# " + title)
-
+    fout.write("# " + title + "\n")
+    fout.write(f"[Edit](https://github.com/rajiv256/rajiv256.github.io/edit/main/_posts/{filename})")
 
 
 def get_args():
