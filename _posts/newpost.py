@@ -26,25 +26,24 @@ import matplotlib.pyplot as plt
 
 def newpost(title="This is Title"):
 
-  s = f'''
-  ---
-  title: "{title}"
-  permalink: "/blog/{'-'.join(title.lower().split())}"
-  categories: ""
-  layout: postpage
-  bibliography: refs.bib
-  link-citations: true
-  scholar:
-    locale: en
-  output:
-    md_document:
-      variant: gfm
-      preserve_yaml: true
-      dev: "png"
-      df_print: default
-  csl: citations.csl
-  ---
-  '''
+  s = f'''---
+title: "{title}"
+permalink: "/blog/{'-'.join(title.lower().split())}"
+categories: ""
+layout: postpage
+bibliography: refs.bib
+link-citations: true
+scholar:
+  locale: en
+output:
+  md_document:
+    variant: gfm
+    preserve_yaml: true
+    dev: "png"
+    df_print: default
+csl: citations.csl
+---
+'''
   dateformat = datetime.today().strftime("%Y-%m-%d")
   filename = dateformat + "-" + "-".join(title.lower().split())+".md"
 
