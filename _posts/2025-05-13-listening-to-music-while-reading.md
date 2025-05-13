@@ -1,20 +1,21 @@
-  ---
-  title: "listening to music while reading"
-  permalink: /blog/listening-to-music-while-reading
-  categories: ""
-  layout: postpage
-  bibliography: refs.bib
-  link-citations: true
-  scholar:
-    locale: en
-  output:
-    md_document:
-      variant: gfm
-      preserve_yaml: true
-      dev: "png"
-      df_print: default
-  csl: citations.csl
-  ---
+---
+title: "listening to music while reading"
+permalink: /blog/listening-to-music-while-reading
+categories: ""
+layout: postpage
+bibliography: refs.bib
+link-citations: true
+scholar:
+  locale: en
+output:
+  md_document:
+    variant: gfm
+    preserve_yaml: true
+    dev: "png"
+    df_print: default
+csl: citations.csl
+---
+  
 # Listening to music while reading
 
 It seems to be a benign prerogative for the Gen-Z and millenials, especially the Gen-Z to listen to music while
