@@ -27,7 +27,7 @@ Here are some of my brain cells on this matter:
 
 - Listen to music that doesn't contain words -- it reduces the cognitive load. 
 - Listen to music you are familiar with -- that way new connections need not be formed. 
-- Listen to music not in the language you are unfamiliar with -- can't learn it if you can't understand it.
+- Listen to music not in the language you are not familiar with -- can't learn it if you can't understand it.
 
 
 These are my three hastily compiled rules. But you gotta do what you gotta do!
