@@ -1,5 +1,5 @@
 ---
-title: "listening to music while reading"
+title: "Listening to music while reading"
 permalink: /blog/listening-to-music-while-reading
 categories: ""
 layout: postpage
@@ -36,3 +36,4 @@ Perhaps, this is why your mind feels peaceful and serene when surrounded by natu
 brain is fully firing and introspective, as the ambient world is the natural rhythm of the brain. I am just guessing
 here. 
 
+[Edit](https://github.com/rajiv256/rajiv256.github.io/edit/main/_posts/2025-05-13-listening-to-music-while-reading.md)
