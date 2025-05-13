@@ -1,6 +1,6 @@
   ---
   title: "listening to music while reading"
-  permalink: "/blog/listening-to-music-while-reading"
+  permalink: /blog/listening-to-music-while-reading
   categories: ""
   layout: postpage
   bibliography: refs.bib
