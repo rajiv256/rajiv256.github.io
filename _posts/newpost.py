@@ -6,6 +6,7 @@ Author: rajiv256
 Created on: 28-06-2024
 
 Description:
+  python3 newpost.py --title "xyz"
 """
 
 # begin imports
@@ -45,7 +46,7 @@ def newpost(title="This is Title"):
   ---
   '''
   dateformat = datetime.today().strftime("%Y-%m-%d")
-  filename = dateformat + "-" + "-".join(title.lower().split())
+  filename = dateformat + "-" + "-".join(title.lower().split())+".md"
 
   with open(filename, "w+") as fout:
 
