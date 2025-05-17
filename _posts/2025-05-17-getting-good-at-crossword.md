@@ -48,7 +48,9 @@ Here's a nice picture to look at. Lake Superior, Lake Michigan, Lake Huron, Lake
 
 #### Trivia tidbits I boosted from my GenAI searches
 
-- Many California cities begin with "San" or "Santa" because they were named after Catholic saints by Spanish colonists who established missions and settlements in the region. The Spanish were primarily Catholic, and they named many of their settlements after the saints they revered. For example, San Diego is named after Saint Didacus of Alcalá, and Santa Barbara is named after Saint Barbara. 
+- Many California cities begin with "San" or "Santa" because they were named after Catholic saints by Spanish colonists who established missions and settlements in the region. The Spanish were primarily Catholic, and they named many of their settlements after the saints they revered. For example, San Diego is named after Saint Didacus of Alcalá, and Santa Barbara is named after Saint Barbara. _It is so surreal that I gotta describe this. I got an internship and while I was trying to brush-up on my California geography, I observed that most of the city names started with "San" or "Saint". I found it peculiar and googled the reason. IRONICALLY, this was a question in today's crossword! If this was not a sign from the Universe to continue writing this blog, Idk what is! (Image attached)_
+<img width="599" alt="image" src="https://github.com/user-attachments/assets/06fe7a77-43d4-4c0c-ac87-8093066ebf60" />
+
 
 
 [Edit](https://github.com/rajiv256/rajiv256.github.io/edit/main/_posts/2025-05-17-getting-good-at-crossword.md)
