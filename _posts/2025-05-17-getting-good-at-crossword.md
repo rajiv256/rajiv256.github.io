@@ -28,7 +28,7 @@ did. All us 'Hardy' boys (it's a pun) have to actually use our polished mortal s
 sometimes when I am solving the crossword, words I have heard and stored in the deep ravines of my memory tend to harken back to
 me. Like the word 'harken' just did. Maybe, I AM special. But I wouldn't put a lot of money on that. But I diverge. 
 
-**The Actual Post**
+__The Actual Post__
 
 I am super good at crosswords from my own country.
 But US crosswords seems to need some honing. (owning-honing ;)
