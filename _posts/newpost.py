@@ -18,7 +18,6 @@ import logging
 import pickle as pkl
 from datetime import datetime
 
-from tqdm import tqdm
 import matplotlib.pyplot as plt
 # end imports
 
