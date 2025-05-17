@@ -38,6 +38,11 @@ the great plains. Lake Ontario. Lake Erie. All these are wonderfully named water
 Atlantic" or "The Pacific".  Don't the names fill you with endorphins? But yea, trivia about them are frequently used in
 Crosswords, so I might as well learn them. Just to engage myself. Not to score crossword points, heh. 
 
+#### The Great Lakes of the USA
+
+Here's a nice picture to look at. Lake Superior, Lake Michigan, Lake Huron, Lake Ontario, Lake Erie. I learned (and forgot) these names in my seventh grade social studies. I loved that subject but my teacher was very mid. So I blame them. 
+
+![image](https://github.com/user-attachments/assets/27bf790c-0e73-4192-a43f-c74efc619094)
 
 
 
