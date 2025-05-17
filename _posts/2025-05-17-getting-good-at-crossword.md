@@ -40,4 +40,9 @@ Crosswords, so I might as well learn them. Just to engage myself. Not to score c
 
 
 
+
+#### Trivia tidbits I boosted from my GenAI searches
+
+Many California cities begin with "San" or "Santa" because they were named after Catholic saints by Spanish colonists who established missions and settlements in the region. The Spanish were primarily Catholic, and they named many of their settlements after the saints they revered. For example, San Diego is named after Saint Didacus of Alcalá, and Santa Barbara is named after Saint Barbara. 
+
 [Edit](https://github.com/rajiv256/rajiv256.github.io/edit/main/_posts/2025-05-17-getting-good-at-crossword.md)
