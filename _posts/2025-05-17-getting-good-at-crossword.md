@@ -24,7 +24,7 @@ life (*mental note*: stop getting personal in the blogs!).
 
 Right now, I can do the monday crosswords with the confidence of an 8 year old who just mastered the multiplication
 tables and put himself on a time machine ride to have a wink at Ramanujan. But not everyone can get the proofs spelled out by God like Ramanujan
-did. All of us 'Hardy' boys (it's a pun) have to do it the tough way. Although
+did. All of us 'Hardy' boys (it's a pun) have to do it the hard way. Although
 sometimes, words I stored in the deep and dark ravines of my memory tend to harken back to
 me at the most unexpected moments. Like the word 'harken' just harkened. Maybe, I AM special. Though I wouldn't put a lot of money on that. But I diverge. 
 
