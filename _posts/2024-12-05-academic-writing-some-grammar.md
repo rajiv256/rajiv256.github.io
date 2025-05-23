@@ -59,3 +59,35 @@ clause simply supplies additional information to the noun.
 
 *Ex: These pairs of pants, which no longer fit me, should be given
 away.*
+
+## should be Vs. has to
+
+`should be` means less strict obligation.
+
+- A recommendation or best practice
+
+- A less strict obligation
+
+- Something that is advisable but not absolutely required
+
+*Ex: The room should be cleaned weekly* (it’s recommended but not
+mandatory)
+
+`has to` is more strict and is mandatory
+
+- A strict requirement or necessity
+
+- No choice in the matter
+
+- Mandatory action
+
+*Ex: The form has to be submitted by Friday* (it’s absolutely required,
+no exceptions)
+
+## Must vs Should
+
+`Must` must indicate a strong obligation or requirement, often with a
+rule or law involved.
+
+`Should` indicates a recommendation, leaving room for personal choice
+and indicating a higher degree of permissibility.

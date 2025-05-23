@@ -72,3 +72,9 @@ _Ex: The room should be cleaned weekly_ (it's recommended but not mandatory)
 
 _Ex: The form has to be submitted by Friday_ (it's absolutely required, no exceptions)
 
+
+## Must vs Should
+
+`Must` must indicate a strong obligation or requirement, often with a rule or law involved. 
+
+`Should` indicates a recommendation, leaving room for personal choice and indicating a higher degree of permissibility. 
