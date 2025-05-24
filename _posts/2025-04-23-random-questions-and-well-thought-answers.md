@@ -20,7 +20,63 @@ csl: citations.csl
 
 #### 1. It’s raining and I am standing under a tree. I have waterproof shoes and my body is not in contact with the ground. However, my hand is resting against the tree. Suddenly, a thunder struck the tree. Say the reverberation from the thunder or the fire won’t affect me? Would the electricity from the thunder affect me? You can assume that the insulation of my shoes is very high that it surpasses the permittivity of air.
 
+You would absolutely be electrocuted, and your waterproof shoes wouldn’t
+save you. Here’s why: When lightning strikes a tree, it doesn’t politely
+follow a single path to ground. The electrical current spreads through
+the tree in multiple directions, and since you’re physically touching
+the tree with your hand, you become part of the electrical circuit. Your
+shoes are irrelevant in this scenario because the current doesn’t need
+to go through your feet to the ground - it can travel from the tree,
+through your hand, through your body, and then jump from any part of you
+(your other hand, your head, your torso) directly to the ground through
+the air. Lightning already demonstrated it can jump through air to reach
+the tree in the first place, so a few feet from your body to the ground
+is trivial. Even if we imagine impossibly perfect insulation on your
+shoes, the current would simply arc around them. Think of it this way:
+lightning just traveled potentially miles through air to hit the tree -
+the air gap around your shoes is nothing by comparison. This is exactly
+why safety guidelines warn never to take shelter under trees during
+thunderstorms, and why you should never touch anything connected to a
+lightning-struck object. The tree effectively becomes a massive
+electrical conductor for those brief moments, and any contact with it
+puts you directly in the path of potentially lethal current. Your best
+bet in a thunderstorm is to get inside a building or a car (which acts
+as a Faraday cage), not under a tree.
+
+*Answer provided by Claude*
+
 #### 2. Should tech companies acquire other companies or should they innovate? How will the world be different if facebook didn’t acquire whatsapp? Or with Twitter…(hint Bluesky)?
+
+The acquire-vs-innovate question reveals a fundamental tension in how
+tech markets evolve. Both strategies serve different purposes, but the
+balance matters enormously for innovation and competition. The case for
+acquisitions: Companies like Google acquiring YouTube or Facebook buying
+Instagram often argue they can scale promising technologies faster than
+startups could alone. Sometimes this works - YouTube might never have
+reached its current scale without Google’s infrastructure and resources.
+Acquisitions can also bring in talent and combine complementary
+technologies in ways that pure internal R&D might miss. The case for
+innovation: Internal innovation tends to produce more genuinely novel
+breakthroughs since companies aren’t just buying existing solutions. It
+also maintains more competitive pressure in markets, preventing any
+single player from simply purchasing their way to dominance. The
+WhatsApp counterfactual is fascinating. Without Facebook’s acquisition,
+WhatsApp might have remained a focused messaging app, potentially with a
+sustainable subscription model rather than ad-driven. We might have seen
+more messaging innovation as WhatsApp, Telegram, Signal, and others
+competed more directly. Facebook might have had to actually innovate in
+messaging rather than just buying the leading competitor. The
+Twitter/Bluesky parallel is playing out right now. Bluesky emerged
+partly because centralized control of Twitter became problematic. If
+Twitter had remained more open or if there were stronger barriers to
+platform consolidation, we might have seen more diverse social media
+ecosystems develop naturally. The real issue isn’t acquisitions per se,
+but when they’re used primarily to eliminate competition rather than
+genuinely improve products. Markets work best with a mix - some
+consolidation for efficiency, but enough independent players to maintain
+innovation pressure.
+
+*Answer provided by Claude*
 
 #### 3. Does force has a speed limit? For example, if a blackhole formed right infront of me, how long after its formation will I feel its presence.
 
@@ -51,3 +107,5 @@ Before Einstein, people thought gravity acted instantaneously across any
 distance - imagine the chaos if the Sun’s gravity could suddenly “switch
 off” and we’d feel it immediately rather than waiting 8 minutes for that
 change to reach us!
+
+*Answer provided by Claude*
