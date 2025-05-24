@@ -94,17 +94,17 @@ and indicating a higher degree of permissibility.
 
 ## When to Use “The” in Written Text
 
-### Use “the” when referring to something specific or previously mentioned:
+#### Use “the” when referring to something specific or previously mentioned:
 
 - “I bought a car. The car is red.” (specific car already mentioned)
 - “The sun rises in the east.” (unique entity everyone knows)
 - “The report you requested” (specific report identified by context)
 
-### Use “the” with superlatives and ordinals:
+#### Use “the” with superlatives and ordinals:
 
 - “The best option” / “The first time” / “The largest building”
 
-### Use “the” with certain geographical features:
+#### Use “the” with certain geographical features:
 
 - Oceans, seas, rivers: “the Pacific,” “the Thames”
 - Mountain ranges: “the Alps,” “the Rockies”
@@ -112,16 +112,16 @@ and indicating a higher degree of permissibility.
 - **BUT NOT** with individual mountains, lakes, or most countries:
   “Mount Everest,” “Lake Michigan,” “France”
 
-### Use “the” with plural proper nouns:
+#### Use “the” with plural proper nouns:
 
 - “The United States,” “the Netherlands,” “the Beatles”
 
-### Use “the” when context makes something definite:
+#### Use “the” when context makes something definite:
 
 - “Please close the door” (the door in this room)
 - “The government announced” (the relevant government)
 
-### DON’T use “the” with:
+#### DON’T use “the” with:
 
 - **General concepts**: “Music is beautiful” (not “The music is
   beautiful”)
@@ -132,7 +132,7 @@ and indicating a higher degree of permissibility.
 - **Plural nouns used generally**: “Dogs are loyal” / “Students need
   support”
 
-### Key Principle
+#### Key Principle
 
 Use “the” when both you and your reader know which specific thing you’re
 talking about.
