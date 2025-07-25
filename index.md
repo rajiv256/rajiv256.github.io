@@ -40,6 +40,8 @@ Gradschool Talk by Prof. Mor Harchol-Balter</a>”.
 
 ## Timeline
 
+- **\[Jul 2025\]**: Attended the [Molecular Programming Decadal Flight Plan Workshop](https://www.mpflightplan.com/) held at the University of Washington.
+- - **\[Jul 2025\]**: Poster accepted for an oral talk at DNA31 Molecular Programming and Computation Conference, held at ENS Lyon, France. 
 - **\[Jun 2024\]**: Paper published in the Royal Society Interface
   journal
   <a href="https://royalsocietypublishing.org/doi/10.1098/rsif.2024.0053">\[Paper\]</a>
