@@ -16,5 +16,12 @@ output:
 csl: citations.csl
 ---
 
-## Canna Lily
+# Plants of Duke
+
+## 1. Calla Lily
+
+![](IMG_7789.jpeg)
+Location: In the alleyway between the  Hudson hall and the quadrangle adjacent to lsrc.
+
+**Claude**: Canna lilies are popular ornamental plants known for their dramatic foliage and vibrant flowers that come in various colors including red, orange, yellow, and pink. They’re often used in landscaping for their bold, tropical look and can grow quite tall, as shown in your photos.​​​​​​​​​​​​​​​​
 
