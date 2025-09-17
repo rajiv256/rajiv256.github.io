@@ -17,8 +17,6 @@ import argparse
 import logging
 import pickle as pkl
 from datetime import datetime
-
-import matplotlib.pyplot as plt
 # end imports
 
 # begin code
