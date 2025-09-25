@@ -22,7 +22,7 @@ csl: citations.csl
 
 ## Why nature chose phosphates? 
 
-Paper reference: \[[1](#ref-westheimer1987nature)\]
+Paper reference: [1](https://www.science.org/doi/abs/10.1126/science.2434996)
 
 1. Becasue they are negatively charged and therefore stays within the lipid membrane. This would not be the case with neutral molecules, which might dissolve and diffuse into the outside. 
 
