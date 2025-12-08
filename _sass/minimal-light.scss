@@ -664,7 +664,8 @@ body::before {
 /* Font variables */
 :root {
   --heading-font: 'Playfair Display', 'Times New Roman', serif;
-  --body-font: 'Source Sans Pro', 'Arial', sans-serif;
+  /*--body-font: 'Source Sans Pro', 'Arial', sans-serif;*/
+  --body-font: 'Cormorant Garamond', serif;
   --alternate-font: 'Cormorant Garamond', serif;
 }
 
