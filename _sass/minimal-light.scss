@@ -310,7 +310,7 @@ blockquote {
 }
 
 code, pre {
-  font-family:Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
   color:#333;
 }
 
@@ -665,7 +665,7 @@ body::before {
 :root {
   --heading-font: 'Playfair Display', 'Times New Roman', serif;
   /*--body-font: 'Source Sans Pro', 'Arial', sans-serif;*/
-  --body-font: 'Cormorant Garamond', serif;
+  --body-font: 'SF Mono', sans-serif;
   --alternate-font: 'Cormorant Garamond', serif;
 }
 
