@@ -712,29 +712,29 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 2.4rem;
+  font-size: 2rem;
   font-weight: 500;
   letter-spacing: -0.01em;
 }
 
 h2 {
-  font-size: 1.9rem;
+  font-size: 1.7rem;
   font-weight: 400;
 }
 
 h3 {
-  font-size: 1.55rem;
+  font-size: 1.4rem;
   font-style: italic;
   font-weight: 300;
 }
 
 h4 {
-  font-size: 1.2rem;
+  font-size: 1.0rem;
   font-weight: 500;
 }
 
 h5, h6 {
-  font-size: 1.05rem;
+  font-size: 1.0rem;
   font-weight: 500;
 }
 
@@ -865,7 +865,7 @@ h1::after {
 /* Responsive design */
 /* Base styles for all devices */
 body {
-  font-size: 12px;
+  font-size: 13px;
   line-height: 1.75;
 }
 
