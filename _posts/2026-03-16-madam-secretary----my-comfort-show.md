@@ -18,12 +18,11 @@ csl: citations.csl
 
 # Madam Secretary -- my favorite comfort show
 
-Madam Secretary, a show that features a plethora of interconnected
-topics including geopolitics, spycraft, justice, fair play, and
-refreshingly, religion, ethics, morality, and family! One would
-imagine that such a melange would quickly drive off the curb but the
-makers managed to craft a meticulous yet heartfelt show. I am a huge
-fan of the West Wing and Madam Secretary is a close second. While the
+Madam Secretary, a show about geopolitics, spycraft, justice, fair play, and
+refreshingly, religion, ethics, morality, and family! You name it, it's got it. One would
+imagine that such a melange would quickly implode under its own weight but surprisingly becomes a sincere, clever, and heartfelt homage to people in public service. She refers to this in one of the episode -- "I am not a partisan politician, I am a public servant". Now and then, the show speaks to itself.
+
+I am a huge fan of NBC's the West Wing and Madam Secretary is a close second. While the
 dialogue is not as snappy as west wing, it certainly aspires to it and
 at many a times lives up to this. While the former primarily focuses
 on the political aspects of the government, the latter expands its
