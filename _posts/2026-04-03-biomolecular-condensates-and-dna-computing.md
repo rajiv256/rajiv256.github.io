@@ -1,3 +1,22 @@
+---
+title: "Biomolecular condensates and DNA computing"
+permalink: "/blog/biomolecular-condensates-and-dna-computing"
+categories: ""
+layout: postpage
+bibliography: refs.bib
+link-citations: true
+scholar:
+  locale: en
+output:
+  md_document:
+    variant: gfm
+    preserve_yaml: true
+    dev: "png"
+    df_print: default
+csl: citations.csl
+---
+
+
 # Biomolecular condensates and DNA computing
 
 #### *Biomolecular condensates: organizers of cellular biochemistry* 
