@@ -24,7 +24,7 @@
   --secondary-bg: #fafbfc;
   --border-color: #ebebeb;
   --heading-color: #5a7d7c;       /* muted burgundy-teal — calm, distinctive */
-  --selection-color: #5a7d7c;     /* matches heading for cohesion */
+  --selection-color: #c8e6f5;     /* very light blue */
   --blockquote-bg: #f7f9fb;
   --code-bg: #f8f8f8;
   --highlight-color: var(--jaded-pink);
@@ -574,7 +574,7 @@ email {
    ============================================================ */
 ::selection {
   background-color: var(--selection-color);
-  color: white;
+  color: var(--soft-black);
 }
 
 /* ============================================================
