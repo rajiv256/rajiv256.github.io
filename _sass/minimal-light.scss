@@ -23,7 +23,8 @@
   --background: #ffffff;
   --secondary-bg: #fafbfc;
   --border-color: #ebebeb;
-  --heading-color: #6b7280;       /* soft grey — easy on the eyes */
+  --heading-color: #5a7d7c;       /* muted burgundy-teal — calm, distinctive */
+  --selection-color: #5a7d7c;     /* matches heading for cohesion */
   --blockquote-bg: #f7f9fb;
   --code-bg: #f8f8f8;
   --highlight-color: var(--jaded-pink);
@@ -33,7 +34,7 @@
    BASE
    ============================================================ */
 html {
-  font-size: 15px; /* all rem values scale from here — increase to make everything larger */
+  font-size: 13px; /* all rem values scale from here — increase to make everything larger */
 }
 
 body {
@@ -78,7 +79,7 @@ body::before {
   }
 
   h1, h2, h3, h4, h5, h6 {
-    color: #9ca3af; /* lighter grey for dark mode headings */
+    color: #7aadac; /* slightly lighter teal for dark mode */
   }
 
   a {
@@ -124,26 +125,26 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 2.4rem;
+  font-size: 2rem;
   font-weight: 600;
   margin: 0 0 20px;
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 1.7rem;
   font-weight: 500;
   margin: 2px 0 15px;
 }
 
 h3 {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   font-weight: 400;
   font-style: normal;
   margin: 0 0 20px;
 }
 
 h4, h5, h6 {
-  font-size: 1.1rem;
+  font-size: 0.95rem;
   font-weight: 500;
   margin: 0 0 20px;
 }
@@ -572,7 +573,7 @@ email {
    SELECTION
    ============================================================ */
 ::selection {
-  background-color: var(--jaded-pink);
+  background-color: var(--selection-color);
   color: white;
 }
 
