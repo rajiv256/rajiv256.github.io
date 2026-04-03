@@ -19,7 +19,7 @@ csl: citations.csl
 
 # Biomolecular condensates and DNA computing
 
-#### *Biomolecular condensates: organizers of cellular biochemistry* 
+## Biomolecular condensates: organizers of cellular biochemistry 
 
 Biomolecular condenstates refer to the membraneless organelles formeed through spontaneous association and concentration of proteins and nucleic acids. 
 Due to this specific organization, these condenstates can be programmed to carry out diverse processes, such as RNA metabolism, DNA repair, and signal transduction.
