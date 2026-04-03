@@ -24,6 +24,9 @@
   --secondary-bg: #fafbfc;
   --border-color: #ebebeb;
   --heading-color: #5a7d7c;       /* muted burgundy-teal — calm, distinctive */
+  --heading-color-h1: #5a7d7c;    /* darkest — base teal */
+  --heading-color-h2: #6e9594;    /* mid — a step lighter */
+  --heading-color-h3: #8aaeac;    /* lightest — softest */
   --selection-color: #c8e6f5;     /* very light blue */
   --blockquote-bg: #f7f9fb;
   --code-bg: #f8f8f8;
@@ -58,7 +61,7 @@ body::before {
   background-image: url('background.png');
   background-size: cover;
   background-position: center;
-  opacity: 0.06;
+  opacity: 0.03;
   background-attachment: fixed;
   background-repeat: repeat;
   position: absolute;
@@ -78,9 +81,9 @@ body::before {
     color: #dadbdf;
   }
 
-  h1, h2, h3, h4, h5, h6 {
-    color: #7aadac; /* slightly lighter teal for dark mode */
-  }
+  h1 { color: #7aadac; }
+  h2 { color: #8bbdbc; }
+  h3 { color: #9ecdcc; }
 
   a {
     color: rgb(62, 183, 240);
@@ -123,6 +126,10 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 0em;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.03);
 }
+
+h1 { color: var(--heading-color-h1); }
+h2 { color: var(--heading-color-h2); }
+h3 { color: var(--heading-color-h3); }
 
 h1 {
   font-size: 2rem;
