@@ -40,25 +40,22 @@ Gradschool Talk by Prof. Mor Harchol-Balter</a>”.
 
 ## Timeline
 
-- **\[Aug 2025\]**: Received a grant from DARPA
-- **\[Jul 2025\]**: Attended the [Molecular Programming Decadal Flight Plan Workshop](https://www.mpflightplan.com/) held at the University of Washington.
-- **\[Jul 2025\]**: Poster accepted for an oral talk at [DNA31 Molecular Programming and Computation Conference](https://dna31.sciencesconf.org/?lang=en), to be held at ENS Lyon, France. 
-- **\[Jun 2024\]**: Paper published in the Royal Society Interface
+- **\[Jun 2024\]** Paper published in the Royal Society Interface
   journal
   <a href="https://royalsocietypublishing.org/doi/10.1098/rsif.2024.0053">\[Paper\]</a>
-- **\[Aug 2022\]**: Awarded the GPNANO fellowship for the Fall 2022
+- **\[Aug 2022\]** Awarded the GPNANO fellowship for the Fall 2022
   semester
-- **\[May 2022\]**: Defended the Research Initiation Project proposal
-- **\[Aug 2021\]**: Joined the Computer Science PhD program at Duke
+- **\[May 2022\]** Defended the Research Initiation Project proposal
+- **\[Aug 2021\]** Joined the Computer Science PhD program at Duke
   University, Durham NC
-- **\[Mar 2020\]**: Joined Google Research as a contract employee
-  through Optimum
-- **\[Dec 2018\]**: Left PayPal and joined Kenome.io
-- **\[Aug 2017\]**: Joined PayPal
-- **\[Oct 2017\]**: Paper accepted to MIKE 2017
-- **\[Jul 2017\]**: Received my undergraduate degree from the CS
+- **\[Mar 2020\]** Joined Google Research as a contract employee through
+  Optimum
+- **\[Dec 2018\]** Left PayPal and joined Kenome.io
+- **\[Aug 2017\]** Joined PayPal
+- **\[Oct 2017\]** Paper accepted to MIKE 2017
+- **\[Jul 2017\]** Received my undergraduate degree from the CS
   department at IIT Madras
-- **\[Apr 2017\]**: Submitted my undergraduate thesis on [A Unikernel
+- **\[Apr 2017\]** Submitted my undergraduate thesis on [A Unikernel
   Webserver in Rust](https://rajiv256.github.io/projects/ouros/)
 
-{% include_relative _includes/publications.md %}
+{% include_relative \_includes/publications.md %}
