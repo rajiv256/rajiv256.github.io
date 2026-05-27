@@ -42,7 +42,7 @@ csl: citations.csl
 ---
 '''
   dateformat = datetime.today().strftime("%Y-%m-%d")
-  filename = dateformat + "-" + "-".join(title.lower().split())+".md"
+  filename = dateformat + "-" + "-".join(title.lower().split())+".Rmd"
 
   with open(filename, "w+") as fout:
 

@@ -1,4 +1,22 @@
-# Some quotes that moved me
+---
+title: "some nice quotes that I stumbled upon"
+permalink: "/blog/some-nice-quotes-that-i-stumbled-upon"
+categories: ""
+layout: postpage
+bibliography: refs.bib
+link-citations: true
+scholar:
+  locale: en
+output:
+  md_document:
+    variant: gfm
+    preserve_yaml: true
+    dev: "png"
+    df_print: default
+csl: citations.csl
+---
+
+# some nice quotes that I stumbled upon
 
 No matter what anyone says, literature has the power to affect minds.
 Sometimes question them, sometimes tickle them, and in some rare
@@ -15,3 +33,5 @@ night reading.
     about Marilyn Monroe
 
 [Edit](https://github.com/rajiv256/rajiv256.github.io/edit/main/_posts/2026-05-21-some-quotes-that-moved-me.md)
+
+[Edit](https://github.com/rajiv256/rajiv256.github.io/edit/main/_posts/2026-05-27-some-nice-quotes-that-i-stumbled-upon.Rmd)
