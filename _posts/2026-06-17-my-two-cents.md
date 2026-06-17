@@ -16,6 +16,7 @@ output:
 csl: citations.csl
 ---
 
-> Happiness may lie in how you spent the day, but true happiness is in what you come home to. 
+> Happiness may lie in how you spent the day, but true happiness is in
+> what you come home to.
 
 [Edit](https://github.com/rajiv256/rajiv256.github.io/edit/main/_posts/2026-06-17-my-two-cents.Rmd)
