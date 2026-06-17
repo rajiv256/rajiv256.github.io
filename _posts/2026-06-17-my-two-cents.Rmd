@@ -20,12 +20,7 @@ __2026-06-17__
 
 > Happiness may lie in how you spent the day, but true happiness is in what you come home to. 
 
-There is a flurry of anti-AI memes these days on r/ProgrammerHumor and such
-as to how the CEOs are figuring out that Claude subscription is more expensive
-than the employees they fired. But I think this misses a point as to what the 
-timeline. However, I think these memes ignore a point. Maybe, Claude has achieved five months
-worth of work those fired employees do in a month. I mean I am the first person to be happy at AI fails. 
-But I just think that these memes ignore this point. 
+I saw a meme today on r/ProgrammerHumor as to how executives are regretting firing those employees as the Claude subscription costs are ginormous. It felt a little silly. I think a more pointed and fairer question to ask is -- how many software engineer hours did Claude's one month subscription save? 
 
 
 [Edit](https://github.com/rajiv256/rajiv256.github.io/edit/main/_posts/2026-06-17-my-two-cents.Rmd)
