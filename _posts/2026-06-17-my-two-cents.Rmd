@@ -1,0 +1,21 @@
+---
+title: "my two cents"
+permalink: "/blog/my-two-cents"
+categories: ""
+layout: postpage
+bibliography: refs.bib
+link-citations: true
+scholar:
+  locale: en
+output:
+  md_document:
+    variant: gfm
+    preserve_yaml: true
+    dev: "png"
+    df_print: default
+csl: citations.csl
+---
+
+> Happiness lies not in how you spent the day, but what you come home to. 
+
+[Edit](https://github.com/rajiv256/rajiv256.github.io/edit/main/_posts/2026-06-17-my-two-cents.Rmd)
