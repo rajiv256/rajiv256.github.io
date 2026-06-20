@@ -16,7 +16,7 @@ output:
 csl: citations.csl
 ---
 
-The growth of data centers is inevitable. A huge environmental concerns
+The growth of data centers is inevitable. Two huge environmental concerns
 regarding data centers are (a) their effect on the neighboring electric
 grid and (b) their water consumption. I read on the news that AI firms
 are investing into nuclear energy. There is a thought on putting data
