@@ -18,7 +18,7 @@ csl: citations.csl
 
 # My Two Cents
 
-*2026-06-17*
+### On happiness
 
 > Happiness may lie in how you spent the day, but true happiness is in
 > what you come home to.
@@ -29,7 +29,7 @@ ginormous. It felt a little silly. I think a more pointed and fairer
 question to ask is – how many software engineer hours did Claude’s one
 month subscription save?
 
-*2026-06-20*
+### On life
 
 What is life? is a question that puzzles philosophers and scientists
 alike. Famously, Schrodinger in his series of talks has elucidated what
@@ -47,5 +47,23 @@ consequence of the laws of physics? Or is it something else? For
 example, a fire looks for resources, tries to expand, adapts to stimuli.
 Is fire alive? Many such questions come up. Another example, is a virus
 alive?
+
+### On the origins of life
+
+This is full blown speculation bordering on science fiction and if you
+permit me to be self-debasing, it borders stupid science fiction. Many
+theories on the origins of life. The Miller-Urey experiment. The RNA
+world hypothesis. The primordial soup. The panspermia hypothesis. But I
+think the most interesting one is the idea that life is a consequence of
+the laws of physics. *Life is a consequence of the second law of
+thermodynamics*, which states that the entropy of a closed system will
+always increase. Self-organization should be a way to increase entropy,
+which might have lead to the birth of the first cell. While my intuition
+is convinced, my incomplete knowledge of the physical laws says “entropy
+is a measure of disorderlyness”. How then, does an organized system have
+more entropy than its counterparts? Could it be that an organized system
+can perform more tasks than its independent components and there is a
+net gain in entropy? I need to study more on this. Will get back at some
+point in the future.
 
 [Edit](https://github.com/rajiv256/rajiv256.github.io/edit/main/_posts/2026-06-17-my-two-cents.Rmd)
