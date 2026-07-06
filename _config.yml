@@ -55,8 +55,9 @@ exclude:
   - minimal-light.gemspec
   - html_source_file/
   - _posts/*.Rmd
-  - _posts/*.html
-  # - _posts/*.md
+  # - _posts/*.html
+  - _posts/*.md
+  - vendor  # <-- ADD THIS LINE
 markdown: kramdown
 kramdown:
  input: GFM
