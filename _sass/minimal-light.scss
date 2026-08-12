@@ -246,7 +246,7 @@ a:hover small {
 blockquote {
   border-left: 3px solid var(--jaded-pink);
   margin-left: 0;
-  padding: 1.4em 1.6em;
+  padding: 0 1.2em;
   background-color: transparent;
   font-family: var(--alternate-font);
   font-style: italic;
@@ -255,6 +255,14 @@ blockquote {
   color: var(--secondary-text);
   line-height: 1.65;
   border-radius: 2px;
+}
+
+blockquote > :first-child {
+  margin-top: 0;
+}
+
+blockquote > :last-child {
+  margin-bottom: 0;
 }
 
 /* ============================================================
