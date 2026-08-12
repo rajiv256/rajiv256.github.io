@@ -247,11 +247,11 @@ blockquote {
   border-left: 3px solid var(--jaded-pink);
   margin-left: 0;
   padding: 1.4em 1.6em;
-  background-color: var(--blockquote-bg);
+  background-color: transparent;
   font-family: var(--alternate-font);
   font-style: italic;
   font-weight: 400;
-  font-size: 1.08em;
+  font-size: 0.95em;
   color: var(--secondary-text);
   line-height: 1.65;
   border-radius: 2px;
