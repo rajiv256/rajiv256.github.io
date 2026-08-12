@@ -57,7 +57,7 @@ body {
   flex-direction: column;
 }
 
-body::before {
+body.homepage::before {
   content: "";
   background-image: url('background.png');
   background-size: cover;
@@ -98,40 +98,41 @@ body::before {
    DARK MODE
    ============================================================ */
 @media (prefers-color-scheme: dark) {
-  body {
+  body:not(.content-page) {
     background-color: #20212b;
     color: #dadbdf;
   }
 
-  h1 { color: #7aadac; }
-  h2 { color: #8bbdbc; }
-  h3 { color: #9ecdcc; }
+  body:not(.content-page) h1 { color: #7aadac; }
+  body:not(.content-page) h2 { color: #8bbdbc; }
+  body:not(.content-page) h3 { color: #9ecdcc; }
 
-  a {
+  body:not(.content-page) a {
     color: rgb(62, 183, 240);
   }
 
-  strong {
+  body:not(.content-page) strong {
     color: #eeeff0;
   }
 
-  th, dt {
+  body:not(.content-page) th,
+  body:not(.content-page) dt {
     color: rgb(62, 183, 240);
   }
 
-  autocolor {
+  body:not(.content-page) autocolor {
     color: #dadbdf;
   }
 
-  lightonly {
+  body:not(.content-page) lightonly {
     visibility: hidden;
   }
 
-  darkonly {
+  body:not(.content-page) darkonly {
     visibility: visible;
   }
 
-  papertitle {
+  body:not(.content-page) papertitle {
     color: #eeeff0;
   }
 }
