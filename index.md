@@ -59,21 +59,23 @@ Gradschool Talk by Prof. Mor Harchol-Balter</a>”.
 ## Talks & Presentations
 
 I speak about biomolecular computation, chemical reaction networks, and
-the broader question of how molecular systems can learn. A selected archive
-of seminars, conference presentations, and presentation materials is being
-assembled here.
+the broader question of how molecular systems can learn. Selected conference
+presentations and their materials are collected here.
 
-<div class="talk-topics">
-  <div class="talk-topic">
-    <span class="talk-topic__number">01</span>
-    <h3>Biomolecular Computing</h3>
-    <p>Programming matter with DNA, RNA, and chemical reaction networks.</p>
+<article class="talk-entry">
+  <div class="talk-entry__meta">
+    <span class="talk-entry__label">Conference talk</span>
+    <span>DNA31</span>
+    <span>Lyon, France</span>
   </div>
-  <div class="talk-topic">
-    <span class="talk-topic__number">02</span>
-    <h3>Biochemical Learning</h3>
-    <p>Building adaptive molecular systems that can learn and operate autonomously.</p>
+  <div class="talk-entry__content">
+    <h3>Neural CRNs: An Analog Implementation of Learning in Chemical Reaction Networks</h3>
+    <p>A presentation on implementing learning behavior with chemical reaction networks.</p>
+    <div class="talk-entry__links">
+      <a href="{{ '/assets/files/talks/neural-crns-dna31.pdf' | relative_url }}">View slides <span aria-hidden="true">↗</span></a>
+      <a href="{{ '/assets/files/talks/neural-crns-dna31.pptx' | relative_url }}" download>Download PowerPoint <span aria-hidden="true">↓</span></a>
+    </div>
   </div>
-</div>
+</article>
 
 </section>
