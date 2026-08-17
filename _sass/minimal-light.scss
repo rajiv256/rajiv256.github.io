@@ -212,8 +212,9 @@ strong {
   grid-template-columns: minmax(0, 1.45fr) minmax(190px, 0.55fr);
   gap: var(--space-6);
   align-items: center;
+  width: min(100%, 880px);
   min-height: 560px;
-  margin-top: var(--space-5);
+  margin: var(--space-5) auto 0;
   padding: clamp(2.5rem, 7vw, 5.5rem);
   overflow: hidden;
   color: #f8f5ed;
