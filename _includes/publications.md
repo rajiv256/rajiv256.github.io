@@ -1,5 +1,4 @@
 <section class="content-section content-section--publications" id="publications">
-<p class="eyebrow">Selected work</p>
 <h2>Publications</h2>
 <div class="publications">
 <ol class="bibliography">

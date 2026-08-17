@@ -13,9 +13,7 @@ output:
 
 <section class="content-section content-section--about" id="about" markdown="1">
 
-<p class="eyebrow">About</p>
-
-## Curiosity, made molecular
+## Lil’ Intro
 
 Good tidings! This is Rajiv, a PhD student in the CompSci department at
 Duke. Here, I work with <a href="https://users.cs.duke.edu/~reif/">Prof.
@@ -38,8 +36,6 @@ Gradschool Talk by Prof. Mor Harchol-Balter</a>”.
 
 <section class="content-section" id="research" markdown="1">
 
-<p class="eyebrow">Current questions</p>
-
 ## Research Interests
 
 - Biomolecular Computing: What kind of information processing
@@ -54,13 +50,7 @@ Gradschool Talk by Prof. Mor Harchol-Balter</a>”.
 
 <section class="content-section content-section--talks" id="talks" markdown="1">
 
-<p class="eyebrow">Speaking</p>
-
 ## Talks & Presentations
-
-I speak about biomolecular computation, chemical reaction networks, and
-the broader question of how molecular systems can learn. Selected conference
-presentations and their materials are collected here.
 
 <article class="talk-entry">
   <div class="talk-entry__meta">
@@ -70,7 +60,6 @@ presentations and their materials are collected here.
   </div>
   <div class="talk-entry__content">
     <h3>Neural CRNs: An Analog Implementation of Learning in Chemical Reaction Networks</h3>
-    <p>A presentation on implementing learning behavior with chemical reaction networks.</p>
     <div class="talk-entry__links">
       <a href="{{ '/assets/files/talks/neural-crns-dna31.pdf' | relative_url }}">View slides <span aria-hidden="true">↗</span></a>
       <a href="{{ '/assets/files/talks/neural-crns-dna31.pptx' | relative_url }}" download>Download PowerPoint <span aria-hidden="true">↓</span></a>
