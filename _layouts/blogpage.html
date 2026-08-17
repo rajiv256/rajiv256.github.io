@@ -1,108 +1,49 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: " en-US" }}">
-
+<html lang="{{ site.lang | default: 'en-US' }}">
 <head>
-    <title> Blog </title>
-    <span class="blogtitle"> Thoughts, Ideas, and Code </span> <i class="blogsubcaption"> often involving rants,
-        musings, and questionable grammar</i>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="{{ site.description }}">
-    {% if site.keywords %}
-    <meta name="keywords" content="{{ site.keywords }}">
-    {% endif %}
-    {% if site.canonical %}
-    <link rel="canonical" href="{{ site.canonical }}" />
-    {% endif %}
-    {% include mathjax.html %}
-    <link rel="icon" media="(prefers-color-scheme:dark)"
-        href="{{ site.baseurl }}/{{ site.favicon_dark }}" type="image/svg" />
-    <link rel="icon" media="(prefers-color-scheme:light)"
-        href="{{ site.baseurl }}/{{ site.favicon }}" type="image/svg" />
-    <script src="{{ site.baseurl }}/assets/js/favicon-switcher.js"
-        type="application/javascript"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Essays, research notes, and digressions by Rajiv Nagipogu.">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <title>Journal · {{ site.title }}</title>
 
-    <link rel=stylesheet
-        href=https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css
-        integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw="
-        crossorigin=anonymous>
-    <link rel=stylesheet
-        href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css
-        integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ="
-        crossorigin=anonymous>
-
-    {% if site.font == "Sans Serif" %}
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/font_sans_serif.css">
-    {% else %}
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/font.css">
-    {% endif %}
-    {% if site.auto_dark_mode %}
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/publications.css">
-    {% else %}
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style-no-dark-mode.css">
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/publications-no-dark-mode.css">
-    {% endif %}
-
-    <script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-      tex2jax: {
-        inlineMath: [['$','$'], ['\\(','\\)']],
-        processEscapes: true
-      }
-    });
-    </script>
-    <script
-        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
-        type="text/javascript"></script>
+  <link rel="icon" href="{{ site.favicon | relative_url }}" type="image/svg+xml">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  {% include mathjax.html %}
 </head>
+<body class="journal-page">
+  <div class="page-shell page-shell--reading">
+    {% include site-nav.html %}
 
-<body class="content-page">
-    <!-- Added by rajiv -->
+    <header class="journal-masthead">
+      <p class="eyebrow">An occasional journal</p>
+      <h1 class="blogtitle">Thoughts, Ideas, and Code</h1>
+      <p>Often involving research, books, rants, and questionable grammar.</p>
+    </header>
 
+    <main class="journal-main">
+      {{ content }}
+    </main>
 
-    <div class="wrapper">
-        <header>
-            <h2><a href="{{ site.url }}">Home</a></ul></h2>
-            <!-- <div>
-                
-                {% for link in site.data.navigation.main %}
-                {% if link.url contains 'http' %}
-                {% assign domain = '' %}
-                {% else %}
-                {% assign domain = base_path %}
-                {% endif %}
-                <ul><a href="{{ domain }}{{ link.url }}"><strong>{{ link.title
-                            }}</strong></a></ul>
-                {% endfor %}
-            </div> -->
-            <!-- <hr> -->
-        <hr>
-        <h4> Blogs I like!</h4>
-        <h6><a href="http://www.bactra.org/notebooks">Bactra Notebooks</a></h6>
-        <h6>  <a href="https://www.folklore.org/A_Rich_Neighbor_Named_Xerox.html">Folklore.org</a></h6>
-            <h6><a href="http://catb.org/jargon/html/koans.html">Some AI Koans</a></h6>
-             <h6><a href="http://www.catb.org/esr/faqs/hacker-howto.html#why_this">Be a Hacker!</a></h6>
-             <h6><a href="https://benlynn.blogspot.com/">Ben Lynn's Online Garbage</a></h6>
-             <h6><a href="https://www.dna.caltech.edu/~winfree/">Prof. Erik Winfree's Home Page (and links within!)</a></h6>
-             <h6><a href="https://theory.report/">Theory of Computing Aggregator</a></h6>
-             <h6><a href="https://www.goodtheorist.science/">Gerard t'Hooft (Theoretical Physics blog)</a></h6>
-             <h6><a href="https://blog.mitrichev.ch/">Algorithm weekly by Petr Mitrichev a.k.a Petr</a></h6>
-             <h6><a href="http://blog.sigfpe.com/">A Neighborhood of Infinity</a></h6>
-        </header>
-        <section>
+    <aside class="blogroll" aria-labelledby="blogroll-title">
+      <div>
+        <p class="eyebrow">Elsewhere on the web</p>
+        <h2 id="blogroll-title">Writing I return to</h2>
+      </div>
+      <ul>
+        <li><a href="http://www.bactra.org/notebooks">Bactra Notebooks</a></li>
+        <li><a href="https://www.folklore.org/A_Rich_Neighbor_Named_Xerox.html">Folklore.org</a></li>
+        <li><a href="http://catb.org/jargon/html/koans.html">AI Koans</a></li>
+        <li><a href="https://benlynn.blogspot.com/">Ben Lynn</a></li>
+        <li><a href="https://theory.report/">Theory of Computing</a></li>
+        <li><a href="https://blog.mitrichev.ch/">Petr Mitrichev</a></li>
+        <li><a href="http://blog.sigfpe.com/">A Neighborhood of Infinity</a></li>
+        <li><a href="https://www.goodtheorist.science/">Gerard 't Hooft</a></li>
+      </ul>
+    </aside>
 
-            {{ content }}
-
-            <br>
-
-        </section>
-        <footer>
-
-        </footer>
-    </div>
-    <script src="{{ site.baseurl }}/assets/js/scale.fix.js"></script>
+    {% include site-footer.html %}
+  </div>
 </body>
-
 </html>

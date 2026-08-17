@@ -11,7 +11,11 @@ output:
     df_print: default
 ---
 
-## Lil’ Intro
+<section class="content-section content-section--about" id="about" markdown="1">
+
+<p class="eyebrow">About</p>
+
+## Curiosity, made molecular
 
 Good tidings! This is Rajiv, a PhD student in the CompSci department at
 Duke. Here, I work with <a href="https://users.cs.duke.edu/~reif/">Prof.
@@ -30,6 +34,12 @@ programs in Computer Science, I highly recommend reading
 “<a href="https://www.cs.cmu.edu/~harchol/gradschooltalk.pdf">The
 Gradschool Talk by Prof. Mor Harchol-Balter</a>”.
 
+</section>
+
+<section class="content-section" id="research" markdown="1">
+
+<p class="eyebrow">Current questions</p>
+
 ## Research Interests
 
 - Biomolecular Computing: What kind of information processing
@@ -37,6 +47,12 @@ Gradschool Talk by Prof. Mor Harchol-Balter</a>”.
   possess?
 - Biochemical Learning: Can we make these systems to be adaptive and
   operate autonomously?
+
+</section>
+
+<section class="content-section" id="milestones" markdown="1">
+
+<p class="eyebrow">Selected milestones</p>
 
 ## Timeline
 
@@ -57,5 +73,7 @@ Gradschool Talk by Prof. Mor Harchol-Balter</a>”.
   department at IIT Madras
 - **\[Apr 2017\]** Submitted my undergraduate thesis on [A Unikernel
   Webserver in Rust](https://rajiv256.github.io/projects/ouros/)
+
+</section>
 
 {% include_relative _includes/publications.md %}

@@ -1,123 +1,48 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: " en-US" }}">
-
+<html lang="{{ site.lang | default: 'en-US' }}">
 <head>
-    <title>{{ site.title }} | {{site.affiliation}}</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <title>{{ page.title }} · {{ site.title }}</title>
 
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="{{ site.description }}">
-    {% if site.keywords %}
-    <meta name="keywords" content="{{ site.keywords }}">
-    {% endif %}
-    {% if site.canonical %}
-    <link rel="canonical" href="{{ site.canonical }}" />
-    {% endif %}
-
-    <link rel="icon" media="(prefers-color-scheme:dark)"
-        href="{{ site.favicon_dark }}" type="image/png" />
-    <link rel="icon" media="(prefers-color-scheme:light)"
-        href="{{ site.favicon }}" type="image/png" />
-    <script src="{{ site.baseurl }}/assets/js/favicon-switcher.js"
-        type="application/javascript"></script>
-
-    <link rel=stylesheet
-        href=https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css
-        integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw="
-        crossorigin=anonymous>
-    <link rel=stylesheet
-        href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css
-        integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ="
-        crossorigin=anonymous>
-
-    {% if site.font == "Sans Serif" %}
-    <link rel="stylesheet"
-        href="{{ site.baseurl }}/assets/css/font_sans_serif.css">
-    {% else %}
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/font.css">
-    {% endif %}
-    {% if site.auto_dark_mode %}
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
-    <link rel="stylesheet"
-        href="{{ site.baseurl }}/assets/css/publications.css">
-    {% else %}
-    <link rel="stylesheet"
-        href="{{ site.baseurl }}/assets/css/style-no-dark-mode.css">
-    <link rel="stylesheet"
-        href="{{ site.baseurl }}/assets/css/publications-no-dark-mode.css">
-    {% endif %}
-    <script type="text/x-mathjax-config">
-        MathJax.Hub.Config({
-          tex2jax: {
-            inlineMath: [['$','$'], ['\\(','\\)']],
-            processEscapes: true
-          }
-        });
-        </script>
-    <script
-        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
-        type="text/javascript"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/default.min.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
-
-<!-- and it's easy to individually load additional languages -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/go.min.js"></script>
-
-<script>hljs.highlightAll();</script>
-
- <style>
-        .custom-link-button {
-            display: inline-block;
-            padding: 12px 25px;
-            background-color: #007bff;
-            color: white;
-            text-decoration: none;
-            border-radius: 8px;
-            font-family: Arial, sans-serif;
-            font-weight: bold;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-            transition: all 0.3s ease;
-        }
-        .custom-link-button:hover {
-            background-color: #0056b3;
-            transform: translateY(-2px);
-            box-shadow: 0 6px 8px rgba(0,0,0,0.15);
-        }
-    </style>
-
+  <link rel="icon" href="{{ site.favicon | relative_url }}" type="image/svg+xml">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/default.min.css">
+  {% include mathjax.html %}
 </head>
+<body class="post-page">
+  <div class="page-shell page-shell--reading">
+    {% include site-nav.html %}
 
-<body class="content-page">
-    <!-- Added by rajiv -->
-    
+    <article class="post-article">
+      <header class="post-header">
+        <a class="post-header__back" href="{{ '/blog/' | relative_url }}">Journal</a>
+        <h1>{{ page.title }}</h1>
+        <div class="post-meta">
+          <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%B %-d, %Y' }}</time>
+          <span aria-hidden="true">·</span>
+          {% assign words = content | number_of_words %}
+          <span>{% if words < 360 %}1 min read{% else %}{{ words | divided_by: 180 }} min read{% endif %}</span>
+        </div>
+      </header>
 
-    <div class="wrapper">
-        <header>
-            <br><br>
-            <h2><a href="{{ site.baseurl }}/blog">Blog</a></h2>
-            <h2><a href="{{ site.baseurl }}/">Home</a></h2>
-        </header>
+      <div class="post-body">
+        {{ content }}
+      </div>
 
-        <section>
-            {{ content }}
-        </section>
-    </div>
-    <script src="{{ site.baseurl }}/assets/js/scale.fix.js"></script>
-    {% if site.google_analytics %}
-    <script>
-        (function (i, s, o, g, r, a, m) {
-            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
-                (i[r].q = i[r].q || []).push(arguments)
-            }, i[r].l = 1 * new Date(); a = s.createElement(o),
-                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
-        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-        ga('create', '{{ site.google_analytics }}', 'auto');
-        ga('send', 'pageview');
-    </script>
-    {% endif %}
+      <footer class="post-footer">
+        <p>Thanks for reading.</p>
+        <a href="{{ '/blog/' | relative_url }}">&larr; Back to the journal</a>
+      </footer>
+    </article>
+
+    {% include site-footer.html %}
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+  <script>hljs.highlightAll();</script>
 </body>
-
 </html>
