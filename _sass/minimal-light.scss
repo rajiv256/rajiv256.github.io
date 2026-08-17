@@ -218,22 +218,10 @@ strong {
   overflow: hidden;
   color: #f8f5ed;
   background:
-    linear-gradient(90deg, rgba(16, 39, 31, 0.97) 0%, rgba(24, 57, 47, 0.92) 58%, rgba(24, 57, 47, 0.78) 100%),
+    linear-gradient(90deg, rgba(16, 39, 31, 0.84) 0%, rgba(24, 57, 47, 0.72) 58%, rgba(24, 57, 47, 0.58) 100%),
     url('background.png') center / cover no-repeat;
   border-radius: var(--radius-md);
-  box-shadow: var(--shadow-soft);
-}
-
-.home-hero::after {
-  position: absolute;
-  z-index: -1;
-  right: -3rem;
-  bottom: -5rem;
-  width: 18rem;
-  height: 18rem;
-  content: '';
-  border: 1px solid rgba(179, 146, 80, 0.3);
-  border-radius: 50%;
+  box-shadow: 0 10px 30px rgba(16, 39, 31, 0.08);
 }
 
 .home-hero .eyebrow {
@@ -255,17 +243,10 @@ strong {
 
 .home-hero__lede {
   max-width: 610px;
-  margin-bottom: var(--space-5);
+  margin-bottom: var(--space-4);
   color: #f0eee7;
   font-size: clamp(1.1rem, 2vw, 1.35rem);
   line-height: 1.55;
-}
-
-.home-hero__actions {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.75rem;
-  margin-bottom: var(--space-5);
 }
 
 .button {
@@ -280,29 +261,6 @@ strong {
   font-size: var(--text-sm);
   font-weight: 600;
   text-decoration: none;
-}
-
-.button--primary {
-  color: var(--forest-950);
-  background: #f6f0df;
-  border-color: #f6f0df;
-}
-
-.button--primary:hover,
-.button--primary:focus-visible {
-  color: var(--forest-950);
-  background: #fffdf8;
-}
-
-.button--quiet {
-  color: #f8f5ed;
-  border-color: rgba(255, 253, 248, 0.4);
-}
-
-.button--quiet:hover,
-.button--quiet:focus-visible {
-  color: #fff;
-  border-color: var(--gold);
 }
 
 .social-links {
