@@ -50,30 +50,30 @@ Gradschool Talk by Prof. Mor Harchol-Balter</a>”.
 
 </section>
 
-<section class="content-section" id="milestones" markdown="1">
+{% include_relative _includes/publications.md %}
 
-<p class="eyebrow">Selected milestones</p>
+<section class="content-section content-section--talks" id="talks" markdown="1">
 
-## Timeline
+<p class="eyebrow">Speaking</p>
 
-- **\[Jun 2024\]** Paper published in the Royal Society Interface
-  journal
-  <a href="https://royalsocietypublishing.org/doi/10.1098/rsif.2024.0053">\[Paper\]</a>
-- **\[Aug 2022\]** Awarded the GPNANO fellowship for the Fall 2022
-  semester
-- **\[May 2022\]** Defended the Research Initiation Project proposal
-- **\[Aug 2021\]** Joined the Computer Science PhD program at Duke
-  University, Durham NC
-- **\[Mar 2020\]** Joined Google Research as a contract employee through
-  Optimum
-- **\[Dec 2018\]** Left PayPal and joined Kenome.io
-- **\[Aug 2017\]** Joined PayPal
-- **\[Oct 2017\]** Paper accepted to MIKE 2017
-- **\[Jul 2017\]** Received my undergraduate degree from the CS
-  department at IIT Madras
-- **\[Apr 2017\]** Submitted my undergraduate thesis on [A Unikernel
-  Webserver in Rust](https://rajiv256.github.io/projects/ouros/)
+## Talks & Presentations
+
+I speak about biomolecular computation, chemical reaction networks, and
+the broader question of how molecular systems can learn. A selected archive
+of seminars, conference presentations, and presentation materials is being
+assembled here.
+
+<div class="talk-topics">
+  <div class="talk-topic">
+    <span class="talk-topic__number">01</span>
+    <h3>Biomolecular Computing</h3>
+    <p>Programming matter with DNA, RNA, and chemical reaction networks.</p>
+  </div>
+  <div class="talk-topic">
+    <span class="talk-topic__number">02</span>
+    <h3>Biochemical Learning</h3>
+    <p>Building adaptive molecular systems that can learn and operate autonomously.</p>
+  </div>
+</div>
 
 </section>
-
-{% include_relative _includes/publications.md %}
