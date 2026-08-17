@@ -54,7 +54,6 @@ Gradschool Talk by Prof. Mor Harchol-Balter</a>”.
 
 <article class="talk-entry">
   <div class="talk-entry__meta">
-    <span class="talk-entry__label">Conference talk</span>
     <span>DNA31</span>
     <span>Lyon, France</span>
   </div>
