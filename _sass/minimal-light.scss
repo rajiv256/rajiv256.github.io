@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Lora:ital,wght@0,400;0,500;0,600;1,400&display=swap');
 
 :root {
-  --font-display: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-  --font-body: 'Lora', Georgia, serif;
+  --font-display: 'Lora', Georgia, serif;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   --font-ui: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-  --font-meta: 'Lora', Georgia, serif;
+  --font-meta: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
 
   --forest-950: #10271f;
@@ -233,6 +233,8 @@ strong {
   max-width: 650px;
   margin-bottom: var(--space-3);
   color: #fffdf8;
+  font-size: clamp(1.65rem, 4vw, 2.8rem);
+  white-space: nowrap;
 }
 
 .home-hero__role {
@@ -342,7 +344,7 @@ strong {
 
 .talk-entry {
   display: grid;
-  grid-template-columns: 120px minmax(0, 1fr) 145px;
+  grid-template-columns: 180px 100px minmax(0, 1fr);
   gap: var(--space-4);
   margin-top: var(--space-4);
   padding: var(--space-4);
@@ -351,6 +353,19 @@ strong {
   border: 1px solid var(--forest-700);
   border-radius: var(--radius-md);
   box-shadow: 0 16px 36px rgba(16, 39, 31, 0.14);
+}
+
+.talk-entry__image {
+  align-self: center;
+  margin: 0;
+  overflow: hidden;
+  background: #fff;
+  border-radius: var(--radius-sm);
+}
+
+.talk-entry__image img {
+  width: 100%;
+  height: auto;
 }
 
 .talk-entry__meta {
@@ -402,70 +417,6 @@ strong {
 .talk-entry__links a:hover {
   color: #fffdf8;
   background: transparent;
-}
-
-.crn-animation {
-  position: relative;
-  width: 145px;
-  height: 92px;
-  align-self: center;
-}
-
-.crn-animation__link {
-  position: absolute;
-  width: 54px;
-  height: 1px;
-  background: rgba(202, 215, 206, 0.55);
-  transform-origin: left center;
-}
-
-.crn-animation__link--one { top: 44px; left: 19px; transform: rotate(-27deg); }
-.crn-animation__link--two { top: 47px; left: 19px; transform: rotate(27deg); }
-.crn-animation__link--three { top: 21px; left: 69px; transform: rotate(27deg); }
-.crn-animation__link--four { top: 72px; left: 69px; transform: rotate(-27deg); }
-
-.crn-animation__node {
-  position: absolute;
-  z-index: 1;
-  width: 14px;
-  height: 14px;
-  background: var(--forest-900);
-  border: 2px solid #cad7ce;
-  border-radius: 50%;
-}
-
-.crn-animation__node--input { top: 39px; left: 8px; }
-.crn-animation__node--upper { top: 12px; left: 62px; }
-.crn-animation__node--lower { top: 65px; left: 62px; }
-.crn-animation__node--output { top: 39px; right: 8px; border-color: var(--gold); }
-
-.crn-animation__signal {
-  position: absolute;
-  z-index: 2;
-  width: 6px;
-  height: 6px;
-  background: #fffdf8;
-  border-radius: 50%;
-  box-shadow: 0 0 8px rgba(255, 253, 248, 0.75);
-}
-
-.crn-animation__signal--one { animation: crn-upper-path 3.6s ease-in-out infinite; }
-.crn-animation__signal--two { animation: crn-lower-path 3.6s 1.8s ease-in-out infinite; }
-
-@keyframes crn-upper-path {
-  0%, 12% { top: 43px; left: 15px; opacity: 0; }
-  20% { opacity: 1; }
-  50% { top: 16px; left: 66px; opacity: 1; }
-  82% { top: 43px; left: 126px; opacity: 1; }
-  90%, 100% { top: 43px; left: 126px; opacity: 0; }
-}
-
-@keyframes crn-lower-path {
-  0%, 12% { top: 43px; left: 15px; opacity: 0; }
-  20% { opacity: 1; }
-  50% { top: 69px; left: 66px; opacity: 1; }
-  82% { top: 43px; left: 126px; opacity: 1; }
-  90%, 100% { top: 43px; left: 126px; opacity: 0; }
 }
 
 .closing-note {
@@ -605,7 +556,7 @@ strong {
   margin-bottom: var(--space-3);
   color: var(--forest-900);
   font-family: 'Brush Script MT', 'Segoe Script', cursive;
-  font-size: clamp(2.25rem, 6vw, 3.7rem);
+  font-size: clamp(2rem, 5vw, 3.2rem);
   font-weight: 400;
   letter-spacing: -0.015em;
   line-height: 1.1;
@@ -657,7 +608,7 @@ strong {
   grid-column: 2;
   align-self: center;
   margin-bottom: 0.6rem;
-  font-size: clamp(1.15rem, 2.5vw, 1.5rem);
+  font-size: clamp(1rem, 2.1vw, 1.3rem);
 }
 
 .post-entry h2 a {
@@ -1021,16 +972,6 @@ small { font-size: var(--text-xs); }
     flex-direction: column;
     gap: 0.4rem;
   }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .crn-animation__signal {
-    animation: none;
-    opacity: 0.65;
-  }
-
-  .crn-animation__signal--one { top: 16px; left: 66px; }
-  .crn-animation__signal--two { top: 69px; left: 66px; }
 }
 
 @media print {
