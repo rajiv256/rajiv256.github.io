@@ -64,6 +64,18 @@ Gradschool Talk by Prof. Mor Harchol-Balter</a>”.
       <a href="{{ '/assets/files/talks/neural-crns-dna31.pptx' | relative_url }}" download>Download PowerPoint <span aria-hidden="true">↓</span></a>
     </div>
   </div>
+  <div class="crn-animation" aria-hidden="true">
+    <span class="crn-animation__link crn-animation__link--one"></span>
+    <span class="crn-animation__link crn-animation__link--two"></span>
+    <span class="crn-animation__link crn-animation__link--three"></span>
+    <span class="crn-animation__link crn-animation__link--four"></span>
+    <span class="crn-animation__node crn-animation__node--input"></span>
+    <span class="crn-animation__node crn-animation__node--upper"></span>
+    <span class="crn-animation__node crn-animation__node--lower"></span>
+    <span class="crn-animation__node crn-animation__node--output"></span>
+    <span class="crn-animation__signal crn-animation__signal--one"></span>
+    <span class="crn-animation__signal crn-animation__signal--two"></span>
+  </div>
 </article>
 
 </section>
