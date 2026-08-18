@@ -782,8 +782,19 @@ th {
 
 .post-body img {
   margin: var(--space-5) auto;
+  opacity: 0.68;
+  background: var(--card-bg);
   border-radius: var(--radius-sm);
   box-shadow: 0 12px 35px rgba(16, 39, 31, 0.1);
+  filter: blur(12px);
+  transform: scale(1.01);
+  transition: filter 480ms ease, opacity 480ms ease, transform 480ms ease;
+}
+
+.post-body img.is-loaded {
+  opacity: 1;
+  filter: blur(0);
+  transform: scale(1);
 }
 
 .custom-link-button {
@@ -990,5 +1001,11 @@ small { font-size: var(--text-xs); }
 
   .post-article {
     width: 100%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .post-body img {
+    transition: none;
   }
 }
