@@ -9,7 +9,7 @@
 <article class="publication-card">
   <div class="publication-card__image">
     {% if link.image %} 
-    <img src="{{ link.image }}" class="teaser" alt="Illustration for {{ link.title }}">
+    <img src="{{ link.image }}" class="teaser" alt="Illustration for {{ link.title }}" loading="lazy" decoding="async">
     {% if link.conference_short %} 
     <abbr class="badge">{{ link.conference_short }}</abbr>
     {% endif %}

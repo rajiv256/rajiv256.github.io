@@ -54,7 +54,7 @@ Gradschool Talk by Prof. Mor Harchol-Balter</a>”.
 
 <article class="talk-entry">
   <figure class="talk-entry__image">
-    <img src="{{ '/assets/img/neural-crn-talk.png' | relative_url }}" alt="Neural CRN architecture from the DNA31 presentation">
+    <img src="{{ '/assets/img/neural-crn-talk.png' | relative_url }}" alt="Neural CRN architecture from the DNA31 presentation" width="900" height="500" loading="lazy" decoding="async">
   </figure>
   <div class="talk-entry__meta">
     <span>DNA31</span>
