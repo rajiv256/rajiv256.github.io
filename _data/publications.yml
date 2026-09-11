@@ -5,7 +5,7 @@ main:
     journal: ACS Synthetic Biology, 2025 (Accepted with Revisions)
     conference: ACS Synthetic Biology, 2025 (Accepted with Revisions)
     code: https://github.com/rajiv256/NeuralCRNGen
-    pdf: https://arxiv.org/abs/2409.00034
+    pdf: https://pubs.acs.org/asbcd6/article/14/10/3899/3745008/Neural-CRNs-A-Natural-Implementation-of-Learning
     image: ./assets/img/neuralcrns.png
     
   - title: Leak-resilient Enzyme-free Nucleic Acid Dynamical Systems
