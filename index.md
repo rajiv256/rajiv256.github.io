@@ -23,9 +23,13 @@ Some sane people refer to this field as DNA Computing, as we use
 synthetic DNA molecules to create molecular-scale computational devices.
 Can we make them to be modular, self-sufficient systems? That is the
 question. When I am not worried about my future, I like to play
-chess/badminton, read classical literature, and watch movies. I
-occasionally write poems and stories
-<a href="https://rajivteja.wordpress.com/"> here</a>.
+chess/badminton, read classical literature, and watch movies.
+
+<nav class="writing-links" aria-label="Writing">
+  <span class="writing-links__label">Writing</span>
+  <a href="{{ '/blog/' | relative_url }}">Technical Notes <span aria-hidden="true">↗</span></a>
+  <a href="https://rajivteja.wordpress.com/">Teen Angst, Continued <span aria-hidden="true">↗</span></a>
+</nav>
 
 **PSA:** If you are a prospective graduate student applying for PhD
 programs in Computer Science, I highly recommend reading
