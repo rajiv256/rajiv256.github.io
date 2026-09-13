@@ -16,7 +16,6 @@ defaults:
       <span>{% if words < 360 %}1 min{% else %}{{ words | divided_by: 180 }} min{% endif %}</span>
     </div>
     <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-    <a class="post-entry__link" href="{{ post.url | relative_url }}" aria-label="Read {{ post.title }}">Read essay <span aria-hidden="true">→</span></a>
   </article>
 {% endfor %}
 </div>
