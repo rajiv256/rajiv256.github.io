@@ -1,5 +1,5 @@
 ---
-title: "Grammar lessons from my academic writing"
+title: "The Sense of Style in Academic Writing"
 permalink: /blog/grammar-lessons-from-writing/
 date: 2024-12-05
 layout: postpage
@@ -16,9 +16,28 @@ output:
 csl: citations.csl
 ---
 
-# Some grammar for dummies (like me) 
 
-I have learnt from my experience of reading (too few than I am supposed to) papers, that the secret to good writing is to expand your cache of verbs. Not to mention the correct usage of prepositions. (I can never tell if I should write secret _to_ good writing or secret _for_ good writing.)
+Inspired by the Steven Pinker's book 'The Sense of Style' (more like Copied), this essay will chronicle the salient points I gained from reading about the sense of style in academic writing and collect them in one place in an annotated formfor a quick revision. This article is a rehash/update of my previous article pithily titled "Grammar lessons from academic writing". Good writers are also good readers, I read somewhere. But I read voraciously, and yet, struggle with academic writing. But not with poetry; that flows mellifluously from my brain to hand to the keyboard, for some reason. All the poems I ever wrote were written within a span of 5 mins.
+
+The first thing to do is build a cache of verbs. The verb is the main part of the sentence and using the right one helps convey the right meaning. 
+
+The second rule is to use active voice than passive voice. Keep the tense in one paragraph consistent. Use present tense for the discussion of the established results, whereas past tense for the experiments done in the past. 
+
+Avoid long sentences. Break it down. Avoid making multiple points in the same sentence. 
+
+Each paragraph should convey a singular point. Start with a topic sentence, then expand on it, and then finally bring it to a proper conclusion. 
+
+I read about a "stress position" and a "topic position". The stress position in the sentence contains the new information to be emphasized, whereas the topic position contains the old information available. The topical position comes before the stress position. 
+
+__Avoid:__
+"This ocean basin was warmer during 2012 than any period found in the observational
+database, based on our analysis of recent ship-based measurements."
+
+__Write:__
+"Based on our analysis of recent ship-based measurements, this ocean basin was
+warmer during 2012 than any period found in the observational database."
+
+# Case studies
 
 ## that+verb Vs. verb-ing 
 
@@ -117,3 +136,13 @@ _Ex: The form has to be submitted by Friday_ (it's absolutely required, no excep
 #### Key Principle
 
 Use "the" when both you and your reader know which specific thing you're talking about.
+
+# References
+
+1. Griffies, S.M., Perrie, W.A. and Hull, G., 2013. Elements of style for writing scientific journal articles. Publishing Connect, Elsevier, pp.20-50.
+
+
+
+
+
+
