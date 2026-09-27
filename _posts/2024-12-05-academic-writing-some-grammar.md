@@ -27,6 +27,8 @@ writing. But not with poetry; that flows mellifluously from my brain to
 hand to the keyboard, for some reason. All the poems I ever wrote were
 written within a span of 5 mins.
 
+# End of rant, begin of substance
+
 The first thing to do is build a cache of verbs. The verb is the main
 part of the sentence and using the right one helps convey the right
 meaning.
