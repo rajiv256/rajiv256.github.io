@@ -759,15 +759,22 @@ strong {
   display: none;
 }
 
+.post-body h1,
 .post-body h2,
 .post-body h3,
-.post-body h4 {
-  margin-top: 2.4em;
-  margin-bottom: 0.7em;
+.post-body h4,
+.post-body h5,
+.post-body h6 {
+  margin-top: 2.2em;
+  margin-bottom: 0.65em;
 }
 
-.post-body h2 { font-size: 1.3rem; }
-.post-body h3 { font-size: 1.08rem; }
+.post-body h1 { font-size: 1.5rem; }
+.post-body h2 { font-size: 1.32rem; }
+.post-body h3 { font-size: 1.18rem; }
+.post-body h4 { font-size: 1.08rem; }
+.post-body h5 { font-size: 1.03rem; }
+.post-body h6 { font-size: 0.98rem; }
 
 .post-body a:not(.custom-link-button) {
   text-decoration-line: underline;
