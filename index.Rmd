@@ -13,7 +13,7 @@ output:
 
 ## Lil' Intro
 
-Good tidings! This is Rajiv, a PhD student in the CompSci department at
+Hi! This is Rajiv, a PhD student in the CompSci department at
 Duke. Here, I work with <a href="https://users.cs.duke.edu/~reif/">Prof.
 John Reif</a> in the field of Natural Computing
 (<a href="https://www.dna.caltech.edu/DNAresearch_perspective.html">huh?</a>).
