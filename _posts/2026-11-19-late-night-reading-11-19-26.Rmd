@@ -1,0 +1,36 @@
+---
+title: "Late night reading 11-19-26"
+permalink: "/blog/late-night-reading-11-19-26"
+categories: ""
+layout: postpage
+bibliography: refs.bib
+link-citations: true
+scholar:
+  locale: en
+output:
+  md_document:
+    variant: gfm
+    preserve_yaml: true
+    dev: "png"
+    df_print: default
+csl: citations.csl
+---
+
+# Late night reading 11-19-26
+
+## Thermodynamic Binding Networks 
+
+- Strand displacement and tiling processes are always not the equilibrium or only favored state at infinity time limit.
+  Ideally, one wants to design reactions such that a definitive product is thermodynamically favored.
+
+- New model of computing, in which computation is driven by the thermodynamic forces of entropy and enthalpy. 
+
+- The idea is we don't want a reaction to always only be partially complete. We want it to go to completion. 
+
+- While the trade-off between entropy and enthalpy is complex, TBN is based on the special case where enthalpy is
+  infinitely more favorable then entropy. Reminder that here, enthalpy is measured as the number of base pairs and
+  entropy is measured as the number of separate complexes. 
+
+- 
+
+[Edit](https://github.com/rajiv256/rajiv256.github.io/edit/main/_posts/2026-11-19-late-night-reading-11-19-26.Rmd)
